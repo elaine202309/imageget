@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Blog — ImageGet</title>
-<meta name="description" content="Tips, updates, and inspiration from the ImageGet team." />
+<title>Support — ImageGet</title>
+<meta name="description" content="Get help with ImageGet." />
 <link rel="icon" type="image/png" href="images/imageget.png" />
 <meta name="google-site-verification" content="fKMPGIHzQejo5i1IyGI4EdbKFSJUtiFocqQJe095gkk" />
 <style>
@@ -18,8 +18,6 @@
   a { color: inherit; text-decoration: none; }
   img { display: block; }
   .wrap { width: 100%; max-width: 1120px; margin: 0 auto; padding: 0 24px; }
-
-  /* Nav */
   nav { position: sticky; top: 0; z-index: 50; background: rgba(255,255,255,.72); -webkit-backdrop-filter: saturate(180%) blur(20px); backdrop-filter: saturate(180%) blur(20px); border-bottom: 1px solid var(--line); }
   .nav-inner { display: flex; align-items: center; justify-content: space-between; height: 64px; }
   .brand { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 18px; letter-spacing: -.01em; }
@@ -27,47 +25,31 @@
   .nav-links { display: flex; align-items: center; gap: 28px; font-size: 14px; font-weight: 500; color: #424245; }
   .nav-links a { transition: color .2s; }
   .nav-links a:hover { color: var(--indigo); }
-  .nav-links a.active { color: var(--indigo); font-weight: 600; }
-  .btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; font-weight: 600; border-radius: 999px; cursor: pointer; transition: transform .15s ease, box-shadow .2s ease, background .2s; border: none; font-family: inherit; }
-  .btn:active { transform: translateY(1px); }
+  .btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; font-weight: 600; border-radius: 999px; cursor: pointer; transition: transform .15s ease, box-shadow .2s ease; border: none; font-family: inherit; }
   .btn-sm { padding: 9px 18px; font-size: 14px; }
   .btn-primary { background: var(--ink); color: #fff; }
-  .btn-primary:hover { box-shadow: 0 8px 24px rgba(0,0,0,.2); }
-
-  /* Content */
-  main { max-width: 1000px; margin: 0 auto; padding: 64px 24px 96px; }
+  main { max-width: 760px; margin: 0 auto; padding: 64px 24px 96px; }
   h1 { font-size: clamp(30px, 5vw, 42px); font-weight: 800; letter-spacing: -.02em; }
-  .lead { color: var(--muted); font-size: 18px; margin: 12px 0 0; }
-  .blog-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 24px; margin-top: 40px; }
-  .post { display: block; background: #fff; border: 1px solid var(--line); border-radius: 16px; padding: 26px; box-shadow: 0 1px 2px rgba(0,0,0,.04); transition: transform .2s ease, box-shadow .2s ease; }
-  .post:hover { transform: translateY(-3px); box-shadow: 0 12px 30px rgba(0,0,0,.1); }
-  .post .date { display: block; font-size: 13px; color: var(--muted); margin-bottom: 10px; }
-  .post h2 { font-size: 19px; font-weight: 700; letter-spacing: -.01em; margin-bottom: 10px; color: var(--ink); }
-  .post p { font-size: 15px; color: #3c3c43; margin: 0; }
-  .cta { background: var(--grad); border-radius: 20px; padding: 44px 28px; margin-top: 48px; text-align: center; color: #fff; }
-  .cta h2 { font-size: 26px; font-weight: 800; letter-spacing: -.02em; margin-bottom: 10px; color: #fff; }
-  .cta p { color: rgba(255,255,255,.92); font-size: 16px; margin: 0 auto 22px; max-width: 440px; }
-  .cta .btn { background: #fff; color: #111; padding: 13px 28px; font-size: 15px; }
-
-  /* Footer */
+  .lead { color: var(--muted); font-size: 18px; margin: 12px 0 40px; }
+  section { margin-bottom: 36px; }
+  h2 { font-size: 20px; font-weight: 700; margin-bottom: 12px; letter-spacing: -.01em; }
+  p { color: #3c3c43; margin-bottom: 12px; }
+  .card { background: var(--bg-soft); border-radius: 16px; padding: 28px; margin-top: 8px; }
   footer { border-top: 1px solid var(--line); padding: 56px 0 40px; background: var(--bg-soft); }
   .foot-grid { display: flex; justify-content: space-between; gap: 32px; flex-wrap: wrap; }
   .foot-col h4 { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; color: var(--muted); margin-bottom: 14px; }
   .foot-col a { display: block; color: #424245; font-size: 14px; padding: 5px 0; }
   .foot-col a:hover { color: var(--indigo); }
   .foot-bottom { margin-top: 40px; padding-top: 24px; border-top: 1px solid var(--line); display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; color: var(--muted); font-size: 13px; }
-
   @media (max-width: 960px) { .nav-links { display: none; } }
 </style>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6EVZZKY1KC"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-6EVZZKY1KC');
-  </script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6EVZZKY1KC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-6EVZZKY1KC');
+</script>
 </head>
 <body>
 
@@ -82,34 +64,32 @@
       <a href="index.html#how">How it works</a>
       <a href="index.html#pricing">Premium</a>
       <a href="index.html#faq">FAQ</a>
-      <a href="blog.html" class="active">Blog</a>
+      <a href="blog.html">Blog</a>
     </div>
     <a href="https://apps.apple.com/us/app/imageget-downloader-from-web/id878190312" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Download</a>
   </div>
 </nav>
 
 <main>
-  <h1>Blog</h1>
-  <p class="lead">Tips, updates, and inspiration from the ImageGet team.</p>
+  <h1>Support</h1>
+  <p class="lead">Need help with ImageGet? Start here.</p>
 
-  <div class="blog-grid">
-    <a class="post" href="blog/getting-started.html">
-      <span class="date">August 28, 2026</span>
-      <h2>Getting Started with ImageGet in 5 Minutes</h2>
-      <p>New to ImageGet? This quick guide gets you from download to your first saved batch in about five minutes.</p>
-    </a>
-    <a class="post" href="blog/batch-download-images.html">
-      <span class="date">August 26, 2026</span>
-      <h2>How to Batch Download Images from Any Web Page in One Tap</h2>
-      <p>Learn how to download every image on a page in a single tap — no more right-clicking or screenshots.</p>
-    </a>
-  </div>
+  <section>
+    <h2>Frequently asked questions</h2>
+    <p>Most common questions — including subscription, billing, and how to cancel — are answered in our <a href="index.html#faq" style="color:var(--indigo);font-weight:600;">FAQ</a>.</p>
+  </section>
 
-  <div class="cta">
-    <h2>See it. Save it. Simple.</h2>
-    <p>Download ImageGet free and save images &amp; reels in one tap.</p>
-    <a href="https://apps.apple.com/us/app/imageget-downloader-from-web/id878190312" target="_blank" rel="noopener" class="btn">Download ImageGet</a>
-  </div>
+  <section>
+    <h2>Still need help?</h2>
+    <div class="card">
+      <p>Email us at <a href="mailto:support@mxcode.com" style="color:var(--indigo);font-weight:600;">support@mxcode.com</a> and describe your issue. We usually reply within 1–2 business days.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Feedback</h2>
+    <p>Have an idea or found a bug? We'd love to hear it — <a href="contact.html" style="color:var(--indigo);font-weight:600;">get in touch</a>.</p>
+  </section>
 </main>
 
 <footer>
