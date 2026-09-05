@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>How to Download Manga &amp; Comic Images from Comic Sites — ImageGet</title>
+<meta name="description" content="Learn how to download manga and comic images from comic sites in one tap. Paste a URL and save every page with ImageGet — full quality, no screenshots." />
+<link rel="icon" type="image/png" href="../images/imageget.png" />
+<meta name="google-site-verification" content="fKMPGIHzQejo5i1IyGI4EdbKFSJUtiFocqQJe095gkk" />
+<style>
+  :root { --ink:#1d1d1f; --muted:#6e6e73; --line:rgba(0,0,0,.08); --indigo:#4f46e5; --grad:linear-gradient(135deg,#6366f1 0%,#8b5cf6 45%,#d946ef 100%); --bg-soft:#f5f5f7; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,Helvetica,Arial,sans-serif; color:var(--ink); line-height:1.7; -webkit-font-smoothing:antialiased; }
+  a { color:inherit; text-decoration:none; }
+  img { display:block; }
+  .wrap { width:100%; max-width:1120px; margin:0 auto; padding:0 24px; }
+  nav { position:sticky; top:0; z-index:50; background:rgba(255,255,255,.72); -webkit-backdrop-filter:saturate(180%) blur(20px); backdrop-filter:saturate(180%) blur(20px); border-bottom:1px solid var(--line); }
+  .nav-inner { display:flex; align-items:center; justify-content:space-between; height:64px; }
+  .brand { display:flex; align-items:center; gap:10px; font-weight:700; font-size:18px; letter-spacing:-.01em; }
+  .brand .logo { width:34px; height:34px; border-radius:9px; flex:none; object-fit:cover; box-shadow:0 2px 10px rgba(0,0,0,.16); }
+  .nav-links { display:flex; align-items:center; gap:28px; font-size:14px; font-weight:500; color:#424245; }
+  .nav-links a { transition:color .2s; }
+  .nav-links a:hover { color:var(--indigo); }
+  .btn { display:inline-flex; align-items:center; justify-content:center; gap:8px; font-weight:600; border-radius:999px; cursor:pointer; transition:transform .15s ease, box-shadow .2s ease; border:none; font-family:inherit; }
+  .btn-sm { padding:9px 18px; font-size:14px; }
+  .btn-primary { background:var(--ink); color:#fff; }
+  main { max-width:760px; margin:0 auto; padding:64px 24px 96px; }
+  .back { display:inline-block; font-size:14px; font-weight:600; color:var(--muted); margin-bottom:28px; }
+  .back:hover { color:var(--indigo); }
+  h1 { font-size:clamp(30px,5vw,42px); font-weight:800; letter-spacing:-.02em; line-height:1.15; }
+  .meta { color:var(--muted); font-size:14px; margin:12px 0 32px; }
+  h2 { font-size:22px; font-weight:700; letter-spacing:-.01em; margin:36px 0 12px; }
+  h3 { font-size:17px; font-weight:700; letter-spacing:-.01em; margin:24px 0 8px; }
+  p { color:#3c3c43; margin-bottom:16px; }
+  ol, ul { padding-left:24px; margin:0 0 16px; color:#3c3c43; }
+  li { margin-bottom:8px; }
+  .cta { background:var(--grad); border-radius:20px; padding:36px 28px; margin:32px 0; text-align:center; color:#fff; }
+  .cta h2 { font-size:24px; font-weight:800; letter-spacing:-.02em; margin-bottom:10px; color:#fff; }
+  .cta p { color:rgba(255,255,255,.92); font-size:16px; margin:0 auto 20px; max-width:460px; }
+  .cta .btn { background:#fff; color:#111; padding:12px 26px; font-size:15px; }
+  footer { border-top:1px solid var(--line); padding:56px 0 40px; background:var(--bg-soft); }
+  .foot-grid { display:flex; justify-content:space-between; gap:32px; flex-wrap:wrap; }
+  .foot-col h4 { font-size:13px; font-weight:700; text-transform:uppercase; letter-spacing:.1em; color:var(--muted); margin-bottom:14px; }
+  .foot-col a { display:block; color:#424245; font-size:14px; padding:5px 0; }
+  .foot-col a:hover { color:var(--indigo); }
+  .foot-bottom { margin-top:40px; padding-top:24px; border-top:1px solid var(--line); display:flex; justify-content:space-between; gap:16px; flex-wrap:wrap; color:var(--muted); font-size:13px; }
+  @media (max-width:960px) { .nav-links { display:none; } }
+</style>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6EVZZKY1KC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-6EVZZKY1KC');
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I download a whole manga chapter at once?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — paste each page URL and use batch mode to gather and save the whole chapter in one go."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does it save manga pages at full quality?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — pages save at full resolution, without compression or watermarks."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which comic sites does it work with?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Any site you can browse — manga sites, webtoon platforms, and comic forums."
+      }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<nav>
+  <div class="wrap nav-inner">
+    <a href="../index.html" class="brand">
+      <img class="logo" src="../images/imageget.png" alt="ImageGet logo" />
+      ImageGet
+    </a>
+    <div class="nav-links">
+      <a href="../index.html#features">Features</a>
+      <a href="../index.html#how">How it works</a>
+      <a href="../index.html#pricing">Premium</a>
+      <a href="../index.html#faq">FAQ</a>
+      <a href="../blog.html">Blog</a>
+    </div>
+    <a href="https://apps.apple.com/us/app/imageget-downloader-from-web/id878190312" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Download</a>
+  </div>
+</nav>
+
+<main>
+  <a class="back" href="../blog.html">← All posts</a>
+  <h1>How to Download Manga &amp; Comic Images from Comic Sites</h1>
+  <p class="meta">September 8, 2026 · ImageGet Team</p>
+
+  <p>Reading manga and comics online is great, but saving your favorite pages used to mean taking one screenshot after another — slow, low-quality, and full of UI clutter. ImageGet changes that. Paste a URL from any comic site, and the app gathers every image on the page so you can review and save them in one tap. Here's how to download manga and comic images, step by step.</p>
+
+  <div class="cta">
+    <p>Download ImageGet free — save manga &amp; comic pages in one tap.</p>
+    <a href="https://apps.apple.com/us/app/imageget-downloader-from-web/id878190312" target="_blank" rel="noopener" class="btn">Download ImageGet</a>
+  </div>
+
+  <h2>Step 1: Paste the comic page URL</h2>
+  <p>Open ImageGet and paste the link to the manga or comic page you want to save. You can copy the URL from any browser, or use ImageGet's built-in browser to visit the comic site directly. Either way, ImageGet scans the page and starts gathering the images on it.</p>
+
+  <h2>Step 2: Gather every page</h2>
+  <p>ImageGet collects all the images on the page — including the full-page scans and panels that load as you scroll. No need to right-click and save each one individually. If a chapter is spread across several pages, paste each URL and let ImageGet gather them all.</p>
+
+  <h2>Step 3: Select and download</h2>
+  <p>Review the gathered images in a clean grid. Tap any image for a full-screen preview, then select the pages you want to keep and download them to your photo library in one tap. Use Smart Filtering to skip tiny thumbnails, avatars, and icons, and keep only the full-size comic pages.</p>
+
+  <h2>Tips for saving manga and comics</h2>
+  <ul>
+    <li><strong>Save a whole chapter</strong> — paste each page URL and batch download the entire chapter in one go.</li>
+    <li><strong>Use Smart Filtering</strong> — skip thumbnails and keep only the full-resolution pages.</li>
+    <li><strong>Respect copyright</strong> — only download content you have the right to keep for personal use.</li>
+  </ul>
+
+  <h2>FAQ</h2>
+  <h3>Can I download a whole manga chapter at once?</h3>
+  <p>Yes — paste each page URL and use batch mode to gather and save the whole chapter in one go.</p>
+  <h3>Does it save manga pages at full quality?</h3>
+  <p>Yes — pages save at full resolution, without compression or watermarks.</p>
+  <h3>Which comic sites does it work with?</h3>
+  <p>Any site you can browse — manga sites, webtoon platforms, and comic forums.</p>
+
+  <div class="cta">
+    <h2>See it. Save it. Simple.</h2>
+    <p>Download ImageGet free and save manga &amp; comic pages in one tap.</p>
+    <a href="https://apps.apple.com/us/app/imageget-downloader-from-web/id878190312" target="_blank" rel="noopener" class="btn">Download ImageGet</a>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-col">
+        <a href="../index.html" class="brand" style="font-size:16px;">
+          <img class="logo" src="../images/imageget.png" alt="ImageGet logo" />
+          ImageGet
+        </a>
+        <p style="color:var(--muted);font-size:14px;margin-top:12px;max-width:260px;">See it. Save it. Simple. The all-in-one photo saver for the web.</p>
+      </div>
+      <div class="foot-col">
+        <h4>Product</h4>
+        <a href="../index.html#features">Features</a>
+        <a href="../index.html#how">How it works</a>
+        <a href="../index.html#pricing">Premium</a>
+        <a href="../blog.html">Blog</a>
+      </div>
+      <div class="foot-col">
+        <h4>Support</h4>
+        <a href="../index.html#faq">FAQ</a>
+        <a href="../contact.html">Contact us</a>
+        <a href="../support.html">Support</a>
+      </div>
+      <div class="foot-col">
+        <h4>Legal</h4>
+        <a href="../privacy.html">Privacy Policy</a>
+        <a href="../terms.html">Terms of Service</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 ImageGet. All rights reserved.</span>
+      <span>ImageGet - Downloader From Web</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
