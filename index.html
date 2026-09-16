@@ -65,7 +65,7 @@
     backdrop-filter: saturate(180%) blur(20px);
     border-bottom: 1px solid var(--line);
   }
-  .nav-inner { display: flex; align-items: center; justify-content: space-between; height: 64px; }
+  .nav-inner { display: flex; align-items: center; justify-content: space-between; height: 64px; gap: 16px; }
   .brand { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 18px; letter-spacing: -.01em; }
   .brand .logo {
     width: 34px; height: 34px; border-radius: 9px; flex: none;
@@ -74,6 +74,10 @@
   .nav-links { display: flex; align-items: center; gap: 28px; font-size: 14px; font-weight: 500; color: #424245; }
   .nav-links a { transition: color .2s; }
   .nav-links a:hover { color: var(--indigo); }
+  .lang { display: flex; align-items: center; gap: 4px; font-size: 13px; font-weight: 600; }
+  .lang a { color: var(--muted); padding: 4px 7px; border-radius: 6px; }
+  .lang a.active { color: var(--ink); background: #e9e9ee; }
+  .lang a:hover { color: var(--indigo); }
   .btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; font-weight: 600; border-radius: 999px; cursor: pointer; transition: transform .15s ease, box-shadow .2s ease, background .2s; border: none; font-family: inherit; }
   .btn:active { transform: translateY(1px); }
   .btn-sm { padding: 9px 18px; font-size: 14px; }
@@ -394,6 +398,11 @@
       <a href="#pricing">Premium</a>
       <a href="#faq">FAQ</a>
       <a href="blog.html">Blog</a>
+    </div>
+    <div class="lang">
+      <a href="index.html" class="active">EN</a>
+      <a href="de/index.html">DE</a>
+      <a href="fr/index.html">FR</a>
     </div>
     <a href="https://apps.apple.com/us/app/imageget-downloader-from-web/id878190312" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Download</a>
   </div>
