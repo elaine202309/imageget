@@ -33,9 +33,15 @@
 
   <url>
     <loc>https://imageget.rayyao.com/blog.html</loc>
-    <lastmod>2026-08-26</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imageget.rayyao.com/de/blog.html</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://imageget.rayyao.com/blog/batch-download-images.html</loc>
@@ -51,7 +57,19 @@
   </url>
   <url>
     <loc>https://imageget.rayyao.com/blog/save-instagram-photos.html</loc>
-    <lastmod>2026-09-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/blog/save-instagram-photos.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/blog/save-instagram-photos.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/blog/save-instagram-photos.html" />
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://imageget.rayyao.com/de/blog/save-instagram-photos.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/blog/save-instagram-photos.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/blog/save-instagram-photos.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/blog/save-instagram-photos.html" />
+    <lastmod>2026-09-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -63,7 +81,19 @@
   </url>
   <url>
     <loc>https://imageget.rayyao.com/blog/download-youtube-shorts.html</loc>
-    <lastmod>2026-09-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/blog/download-youtube-shorts.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/blog/download-youtube-shorts.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/blog/download-youtube-shorts.html" />
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://imageget.rayyao.com/de/blog/download-youtube-shorts.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/blog/download-youtube-shorts.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/blog/download-youtube-shorts.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/blog/download-youtube-shorts.html" />
+    <lastmod>2026-09-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

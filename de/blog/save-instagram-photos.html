@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Instagram-Fotos, Reels und Videos speichern — ImageGet</title>
+<meta name="description" content="Erfahre, wie du Instagram-Fotos, Reels und Videos mit ImageGet in deiner Fotomediathek speicherst. Anmelden, browsen und mit einem Tippen herunterladen – ohne Screenshots." />
+<link rel="icon" type="image/png" href="../../images/imageget.png" />
+<meta name="google-site-verification" content="fKMPGIHzQejo5i1IyGI4EdbKFSJUtiFocqQJe095gkk" />
+<link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/blog/save-instagram-photos.html" />
+<link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/blog/save-instagram-photos.html" />
+<link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/blog/save-instagram-photos.html" />
+<style>
+  :root { --ink:#1d1d1f; --muted:#6e6e73; --line:rgba(0,0,0,.08); --indigo:#4f46e5; --grad:linear-gradient(135deg,#6366f1 0%,#8b5cf6 45%,#d946ef 100%); --bg-soft:#f5f5f7; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,Helvetica,Arial,sans-serif; color:var(--ink); line-height:1.7; -webkit-font-smoothing:antialiased; }
+  a { color:inherit; text-decoration:none; }
+  img { display:block; }
+  .wrap { width:100%; max-width:1120px; margin:0 auto; padding:0 24px; }
+  nav { position:sticky; top:0; z-index:50; background:rgba(255,255,255,.72); -webkit-backdrop-filter:saturate(180%) blur(20px); backdrop-filter:saturate(180%) blur(20px); border-bottom:1px solid var(--line); }
+  .nav-inner { display:flex; align-items:center; justify-content:space-between; height:64px; }
+  .brand { display:flex; align-items:center; gap:10px; font-weight:700; font-size:18px; letter-spacing:-.01em; }
+  .brand .logo { width:34px; height:34px; border-radius:9px; flex:none; object-fit:cover; box-shadow:0 2px 10px rgba(0,0,0,.16); }
+  .nav-links { display:flex; align-items:center; gap:28px; font-size:14px; font-weight:500; color:#424245; }
+  .nav-links a { transition:color .2s; }
+  .nav-links a:hover { color:var(--indigo); }
+  .lang { display:flex; align-items:center; gap:4px; font-size:13px; font-weight:600; }
+  .lang a { color:var(--muted); padding:4px 7px; border-radius:6px; }
+  .lang a.active { color:var(--ink); background:#e9e9ee; }
+  .lang a:hover { color:var(--indigo); }
+  .btn { display:inline-flex; align-items:center; justify-content:center; gap:8px; font-weight:600; border-radius:999px; cursor:pointer; transition:transform .15s ease, box-shadow .2s ease; border:none; font-family:inherit; }
+  .btn-sm { padding:9px 18px; font-size:14px; }
+  .btn-primary { background:var(--ink); color:#fff; }
+  main { max-width:760px; margin:0 auto; padding:64px 24px 96px; }
+  .back { display:inline-block; font-size:14px; font-weight:600; color:var(--muted); margin-bottom:28px; }
+  .back:hover { color:var(--indigo); }
+  h1 { font-size:clamp(30px,5vw,42px); font-weight:800; letter-spacing:-.02em; line-height:1.15; }
+  .meta { color:var(--muted); font-size:14px; margin:12px 0 32px; }
+  h2 { font-size:22px; font-weight:700; letter-spacing:-.01em; margin:36px 0 12px; }
+  h3 { font-size:17px; font-weight:700; letter-spacing:-.01em; margin:24px 0 8px; }
+  p { color:#3c3c43; margin-bottom:16px; }
+  ol, ul { padding-left:24px; margin:0 0 16px; color:#3c3c43; }
+  li { margin-bottom:8px; }
+  .video-embed { width:100%; max-width:340px; margin:24px auto 8px; aspect-ratio:9/16; border-radius:20px; overflow:hidden; border:2px solid rgba(0,0,0,.14); box-shadow:0 12px 30px rgba(0,0,0,.14); }
+  .video-embed iframe { width:100%; height:100%; border:0; display:block; }
+  .cta { background:var(--grad); border-radius:20px; padding:36px 28px; margin:32px 0; text-align:center; color:#fff; }
+  .cta h2 { font-size:24px; font-weight:800; letter-spacing:-.02em; margin-bottom:10px; color:#fff; }
+  .cta p { color:rgba(255,255,255,.92); font-size:16px; margin:0 auto 20px; max-width:460px; }
+  .cta .btn { background:#fff; color:#111; padding:12px 26px; font-size:15px; }
+  footer { border-top:1px solid var(--line); padding:56px 0 40px; background:var(--bg-soft); }
+  .foot-grid { display:flex; justify-content:space-between; gap:32px; flex-wrap:wrap; }
+  .foot-col h4 { font-size:13px; font-weight:700; text-transform:uppercase; letter-spacing:.1em; color:var(--muted); margin-bottom:14px; }
+  .foot-col a { display:block; color:#424245; font-size:14px; padding:5px 0; }
+  .foot-col a:hover { color:var(--indigo); }
+  .foot-bottom { margin-top:40px; padding-top:24px; border-top:1px solid var(--line); display:flex; justify-content:space-between; gap:16px; flex-wrap:wrap; color:var(--muted); font-size:13px; }
+  @media (max-width:960px) { .nav-links { display:none; } }
+</style>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6EVZZKY1KC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-6EVZZKY1KC');
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Kann ich Instagram-Reels und -Videos herunterladen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja — Reels und Videos werden mit Ton in deiner Fotomediathek gespeichert, ganz ohne Bildschirmaufnahme."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Ist das Speichern von Instagram-Fotos kostenlos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja — ImageGet enthält eine 7-tägige kostenlose Testphase, danach 3 kostenlose Downloads für Instagram-Bilder und -Videos. Mit Premium sind Speichern und Werbefreiheit unbegrenzt."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Brauche ich Screenshots oder einen Bildschirmmitschnitt?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nein. ImageGet speichert Instagram-Fotos und Reels direkt in voller Qualität — Screenshots oder Bildschirmaufnahmen sind nicht nötig."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wird in voller Qualität gespeichert?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja — ImageGet speichert Instagram-Fotos und Reels in voller Auflösung, ohne Komprimierung und ohne Wasserzeichen."
+      }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<nav>
+  <div class="wrap nav-inner">
+    <a href="../index.html" class="brand">
+      <img class="logo" src="../../images/imageget.png" alt="ImageGet Logo" />
+      ImageGet
+    </a>
+    <div class="nav-links">
+      <a href="../index.html#features">Funktionen</a>
+      <a href="../index.html#how">So funktioniert's</a>
+      <a href="../index.html#pricing">Premium</a>
+      <a href="../index.html#faq">FAQ</a>
+      <a href="../blog.html">Blog</a>
+    </div>
+    <div class="lang">
+      <a href="../../blog/save-instagram-photos.html">EN</a>
+      <a href="save-instagram-photos.html" class="active">DE</a>
+    </div>
+    <a href="https://apps.apple.com/us/app/imageget-downloader-from-web/id878190312" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Herunterladen</a>
+  </div>
+</nav>
+
+<main>
+  <a class="back" href="../blog.html">← Alle Beiträge</a>
+  <h1>Instagram-Fotos, Reels und Videos speichern</h1>
+  <p class="meta">1. September 2026 · ImageGet Team</p>
+
+  <p>Instagram-Fotos und -Videos in der Mediathek zu speichern bedeutete früher Screenshots – Qualitätsverlust, die Oberfläche im Bild und Wasserzeichen in der Ecke. ImageGet macht das anders. Melde dich mit deinem Instagram-Konto an und browse wie gewohnt – ImageGet sammelt automatisch jedes Foto, jedes Reel und jedes Video, das du siehst, und du entscheidest, was heruntergeladen wird. So speicherst du Instagram-Fotos, Reels und Videos, Schritt für Schritt.</p>
+
+  <div class="video-embed">
+    <iframe src="https://www.youtube.com/embed/xotd5RLhhkw" title="Instagram-Fotos, Reels und Videos mit ImageGet speichern" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+
+  <div class="cta">
+    <p>Lade ImageGet kostenlos herunter – Instagram-Fotos, Reels und Videos mit einem Tippen speichern.</p>
+    <a href="https://apps.apple.com/us/app/imageget-downloader-from-web/id878190312" target="_blank" rel="noopener" class="btn">ImageGet herunterladen</a>
+  </div>
+
+  <h2>Schritt 1: Bei Instagram anmelden</h2>
+  <p>Öffne ImageGet und tippe auf den Instagram-Tab. Melde dich mit deinem Instagram-Konto an – die App verbindet dich sicher mit deinem Feed, deinen Profilen und der Explore-Seite. Nach der Anmeldung kannst du Beiträge, Profile und Explore-Seiten genau so durchsuchen wie in der offiziellen App. Für Instagram-Inhalte musst du keine Links kopieren: Alles, was du dir ansiehst und wonach du suchst, ist direkt da und bereit zum Speichern.</p>
+
+  <img src="../../images/imageget-main-interface.png" alt="Bei Instagram in ImageGet anmelden" loading="lazy" style="width:100%;max-width:340px;margin:24px auto 8px;display:block;border-radius:20px;border:2px solid rgba(0,0,0,.14);box-shadow:0 12px 30px rgba(0,0,0,.14);" />
+
+  <h2>Schritt 2: Browsen – Fotos, Reels und Videos werden automatisch gesammelt</h2>
+  <p>Sobald du angemeldet bist, browse einfach wie gewohnt durch Instagram. Während du durch deinen Feed, Profile und die Explore-Seite scrollst, sammelt ImageGet im Hintergrund automatisch jedes Foto, jedes Reel und jedes Video. Du musst nichts antippen und keine Links kopieren – alles, was du siehst, wird beim Browsen erfasst.</p>
+
+  <img src="../../images/iphone-3.png" alt="Instagram mit gesammelten Bildern in ImageGet durchsuchen" loading="lazy" style="width:100%;max-width:340px;margin:24px auto 8px;display:block;border-radius:20px;border:2px solid rgba(0,0,0,.14);box-shadow:0 12px 30px rgba(0,0,0,.14);" />
+
+  <h2>Schritt 3: Auswählen und herunterladen</h2>
+  <p>Wenn du fertig bist, öffne den Cache und sieh dir alles an, was ImageGet gesammelt hat. Wähle die Fotos, Reels und Videos aus, die du behalten möchtest, und lade sie mit einem Tippen in deine Fotomediathek. Fotos werden in voller Auflösung gespeichert, Reels als Videos mit Ton – ohne Komprimierung, ohne Wasserzeichen. Aktiviere Smart Filtering, um unscharfe Vorschaubilder zu überspringen und nur die hochauflösenden Bilder zu behalten.</p>
+
+  <img src="../../images/iphone-6.png" alt="Gesammelte Bilder in ImageGet auswählen und herunterladen" loading="lazy" style="width:100%;max-width:340px;margin:24px auto 8px;display:block;border-radius:20px;border:2px solid rgba(0,0,0,.14);box-shadow:0 12px 30px rgba(0,0,0,.14);" />
+
+  <h2>Tipps zum Speichern aus Instagram</h2>
+  <ul>
+    <li><strong>Ein ganzes Profil auf einmal speichern</strong> — hole alle Fotos und Videos eines Kontos in einem Durchgang. Ideal, um den kompletten Feed einer Fotografin oder eines Künstlers zu sichern.</li>
+    <li><strong>Smart Filtering nutzen</strong> — überspringe niedrig aufgelöste Vorschaubilder, Profilbilder und Icons und behalte nur die hochwertigen Bilder, die du wirklich willst.</li>
+    <li><strong>Urheberrecht beachten</strong> — speichere nur Fotos und Videos, die du behalten darfst, und nenne immer die ursprüngliche Urheberin oder den Urheber, wenn du etwas erneut teilst.</li>
+  </ul>
+
+  <h2>FAQ</h2>
+  <h3>Kann ich Instagram-Reels und -Videos herunterladen?</h3>
+  <p>Ja — Reels und Videos werden mit Ton in deiner Fotomediathek gespeichert, ganz ohne Bildschirmaufnahme.</p>
+  <h3>Ist das Speichern von Instagram-Fotos kostenlos?</h3>
+  <p>Ja — ImageGet enthält eine 7-tägige kostenlose Testphase, danach 3 kostenlose Downloads für Instagram-Bilder und -Videos. Mit Premium sind Speichern und Werbefreiheit unbegrenzt.</p>
+  <h3>Brauche ich Screenshots oder einen Bildschirmmitschnitt?</h3>
+  <p>Nein. ImageGet speichert Instagram-Fotos und Reels direkt in voller Qualität — Screenshots oder Bildschirmaufnahmen sind nicht nötig.</p>
+  <h3>Wird in voller Qualität gespeichert?</h3>
+  <p>Ja — ImageGet speichert Instagram-Fotos und Reels in voller Auflösung, ohne Komprimierung und ohne Wasserzeichen.</p>
+
+  <div class="cta">
+    <h2>Sehen. Speichern. Einfach.</h2>
+    <p>Lade ImageGet kostenlos herunter und speichere Instagram-Fotos, Reels und Videos mit einem Tippen.</p>
+    <a href="https://apps.apple.com/us/app/imageget-downloader-from-web/id878190312" target="_blank" rel="noopener" class="btn">ImageGet herunterladen</a>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-col">
+        <a href="../index.html" class="brand" style="font-size:16px;">
+          <img class="logo" src="../../images/imageget.png" alt="ImageGet Logo" />
+          ImageGet
+        </a>
+        <p style="color:var(--muted);font-size:14px;margin-top:12px;max-width:260px;">Sehen. Speichern. Einfach. Der All-in-One-Fotospeicher fürs Web.</p>
+      </div>
+      <div class="foot-col">
+        <h4>Produkt</h4>
+        <a href="../index.html#features">Funktionen</a>
+        <a href="../index.html#how">So funktioniert's</a>
+        <a href="../index.html#pricing">Premium</a>
+        <a href="../blog.html">Blog</a>
+      </div>
+      <div class="foot-col">
+        <h4>Support</h4>
+        <a href="../index.html#faq">FAQ</a>
+        <a href="../contact.html">Kontakt</a>
+        <a href="../support.html">Support</a>
+      </div>
+      <div class="foot-col">
+        <h4>Rechtliches</h4>
+        <a href="../privacy.html">Datenschutz</a>
+        <a href="../terms.html">Nutzungsbedingungen</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 ImageGet. Alle Rechte vorbehalten.</span>
+      <span>ImageGet - Downloader From Web</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
