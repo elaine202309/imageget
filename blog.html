@@ -7,6 +7,10 @@
 <meta name="description" content="Tips, updates, and inspiration from the ImageGet team." />
 <link rel="icon" type="image/png" href="images/imageget.png" />
 <meta name="google-site-verification" content="fKMPGIHzQejo5i1IyGI4EdbKFSJUtiFocqQJe095gkk" />
+<link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/blog.html" />
+<link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/blog.html" />
+<link rel="alternate" hreflang="fr" href="https://imageget.rayyao.com/fr/blog.html" />
+<link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/blog.html" />
 <style>
   :root {
     --ink: #1d1d1f; --muted: #6e6e73; --line: rgba(0,0,0,.08);
@@ -28,6 +32,10 @@
   .nav-links a { transition: color .2s; }
   .nav-links a:hover { color: var(--indigo); }
   .nav-links a.active { color: var(--indigo); font-weight: 600; }
+  .lang { display: flex; align-items: center; gap: 4px; font-size: 13px; font-weight: 600; }
+  .lang a { color: var(--muted); padding: 4px 7px; border-radius: 6px; }
+  .lang a.active { color: var(--ink); background: #e9e9ee; }
+  .lang a:hover { color: var(--indigo); }
   .btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; font-weight: 600; border-radius: 999px; cursor: pointer; transition: transform .15s ease, box-shadow .2s ease, background .2s; border: none; font-family: inherit; }
   .btn:active { transform: translateY(1px); }
   .btn-sm { padding: 9px 18px; font-size: 14px; }
@@ -83,6 +91,11 @@
       <a href="index.html#pricing">Premium</a>
       <a href="index.html#faq">FAQ</a>
       <a href="blog.html" class="active">Blog</a>
+    </div>
+    <div class="lang">
+      <a href="blog.html" class="active">EN</a>
+      <a href="de/blog.html">DE</a>
+      <a href="fr/blog.html">FR</a>
     </div>
     <a href="https://apps.apple.com/us/app/imageget-downloader-from-web/id878190312" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Download</a>
   </div>
