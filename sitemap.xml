@@ -37,7 +37,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/blog.html" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://imageget.rayyao.com/fr/blog.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/blog.html" />
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -166,6 +166,12 @@
   <url>
     <loc>https://imageget.rayyao.com/blog/save-news-gallery-images.html</loc>
     <lastmod>2026-09-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://imageget.rayyao.com/blog/download-facebook-reels.html</loc>
+    <lastmod>2026-09-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
