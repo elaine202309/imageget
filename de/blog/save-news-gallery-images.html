@@ -3,14 +3,13 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Bilder von Webseiten herunterladen – alle Bilder auf einmal — ImageGet</title>
-<meta name="description" content="Erfahre, wie du mit ImageGet Bilder von Webseiten herunterlädst. Füge eine beliebige URL ein und speichere alle Bilder der Seite mit einem Tippen – kein Rechtsklick, keine Screenshots." />
+<title>Bilder aus Nachrichten-Galerien und Fotoforen herunterladen – Anleitung — ImageGet</title>
+<meta name="description" content="Erfahre, wie du Bilder aus Nachrichten-Galerien und Fotoforen mit ImageGet herunterlädst. Füge eine URL ein und speichere jedes Foto mit einem Tippen – in voller Qualität, ohne Screenshots." />
 <link rel="icon" type="image/png" href="../../images/imageget.png" />
 <meta name="google-site-verification" content="fKMPGIHzQejo5i1IyGI4EdbKFSJUtiFocqQJe095gkk" />
-<link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/blog/batch-download-images.html" />
-<link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/blog/batch-download-images.html" />
-<link rel="alternate" hreflang="fr" href="https://imageget.rayyao.com/fr/blog/batch-download-images.html" />
-<link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/blog/batch-download-images.html" />
+<link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/blog/save-news-gallery-images.html" />
+<link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/blog/save-news-gallery-images.html" />
+<link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/blog/save-news-gallery-images.html" />
 <style>
   :root { --ink:#1d1d1f; --muted:#6e6e73; --line:rgba(0,0,0,.08); --indigo:#4f46e5; --grad:linear-gradient(135deg,#6366f1 0%,#8b5cf6 45%,#d946ef 100%); --bg-soft:#f5f5f7; }
   * { box-sizing:border-box; margin:0; padding:0; }
@@ -42,6 +41,8 @@
   p { color:#3c3c43; margin-bottom:16px; }
   ol, ul { padding-left:24px; margin:0 0 16px; color:#3c3c43; }
   li { margin-bottom:8px; }
+  .video-embed { width:100%; max-width:340px; margin:24px auto 8px; aspect-ratio:9/16; border-radius:20px; overflow:hidden; border:2px solid rgba(0,0,0,.14); box-shadow:0 12px 30px rgba(0,0,0,.14); }
+  .video-embed iframe { width:100%; height:100%; border:0; display:block; }
   .cta { background:var(--grad); border-radius:20px; padding:36px 28px; margin:32px 0; text-align:center; color:#fff; }
   .cta h2 { font-size:24px; font-weight:800; letter-spacing:-.02em; margin-bottom:10px; color:#fff; }
   .cta p { color:rgba(255,255,255,.92); font-size:16px; margin:0 auto 20px; max-width:460px; }
@@ -68,26 +69,26 @@
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Wie lade ich alle Bilder einer Webseite auf einmal herunter?",
+      "name": "Kann ich eine ganze Nachrichten-Galerie auf einmal herunterladen?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Füge eine URL in ImageGet ein, tippe auf Go, sieh dir das Raster an und tippe dann auf Save All. Alle Bilder der Seite werden in einem Durchgang in deiner Fotomediathek gespeichert."
+        "text": "Ja — füge die URL der Galerie ein und nutze den Stapelmodus, um die gesamte Galerie in einem Durchgang herunterzuladen."
       }
     },
     {
       "@type": "Question",
-      "name": "Kann ich Bilder kostenlos im Stapel herunterladen?",
+      "name": "Werden die Fotos in voller Qualität heruntergeladen?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Ja — der kostenlose Tarif umfasst 2 Downloads für Web-Bilder. Mit Premium sind Speichern und Werbefreiheit unbegrenzt."
+        "text": "Ja — die Fotos werden in voller Auflösung gespeichert, ohne Komprimierung und ohne Wasserzeichen."
       }
     },
     {
       "@type": "Question",
-      "name": "Funktioniert es mit Instagram und anderen Seiten?",
+      "name": "Mit welchen Seiten funktioniert es?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Ja. Melde dich bei Instagram an, um Bilder und Reels zu speichern, oder füge eine URL von einer anderen Website ein, um deren Bilder herunterzuladen."
+        "text": "Mit jeder Seite, die du im Browser öffnen kannst — Nachrichten-Galerien, Fotoforen und Community-Threads."
       }
     }
   ]
@@ -110,9 +111,8 @@
       <a href="../blog.html">Blog</a>
     </div>
     <div class="lang">
-      <a href="../../blog/batch-download-images.html">EN</a>
-      <a href="batch-download-images.html" class="active">DE</a>
-      <a href="../../fr/blog/batch-download-images.html">FR</a>
+      <a href="../../blog/save-news-gallery-images.html">EN</a>
+      <a href="save-news-gallery-images.html" class="active">DE</a>
     </div>
     <a href="https://apps.apple.com/us/app/imageget-downloader-from-web/id878190312" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Herunterladen</a>
   </div>
@@ -120,53 +120,49 @@
 
 <main>
   <a class="back" href="../blog.html">← Alle Beiträge</a>
-  <h1>Bilder von Webseiten herunterladen – alle Bilder auf einmal</h1>
-  <p class="meta">26. August 2026 · ImageGet Team</p>
+  <h1>Bilder aus Nachrichten-Galerien und Fotoforen herunterladen</h1>
+  <p class="meta">22. September 2026 · ImageGet Team</p>
 
-  <p>Bilder aus dem Web zu speichern bedeutete früher, jedes einzelne Bild per Rechtsklick herunterzuladen – oder noch schlimmer: Screenshots zu machen. ImageGet macht das anders: Füge eine beliebige URL ein und hole alle Bilder der Seite mit einem einzigen Tippen. Melde dich bei Instagram an, um Bilder und Reels beim Browsen zu speichern – oder lade von jeder anderen Website herunter, die du magst.</p>
+  <p>Nachrichten-Galerien und Fotoforen stecken voller Bilder, die es wert sind, behalten zu werden – aber sie einzeln herunterzuladen ist langsam und mühsam. ImageGet macht das anders. Füge eine URL ein, und die App sammelt jedes Bild auf der Seite, damit du sie ansehen und mit einem Tippen herunterladen kannst. So lädst du Bilder aus Nachrichten-Galerien und Fotoforen herunter, Schritt für Schritt.</p>
 
   <div class="cta">
-    <p>Lade ImageGet kostenlos herunter – jedes Bild und Reel einer Seite mit einem Tippen speichern.</p>
+    <p>Lade ImageGet kostenlos herunter – Bilder aus Nachrichten-Galerien und Foren mit einem Tippen speichern.</p>
     <a href="https://apps.apple.com/us/app/imageget-downloader-from-web/id878190312" target="_blank" rel="noopener" class="btn">ImageGet herunterladen</a>
   </div>
 
-  <h2>Warum Stapel-Downloads besser sind als einzelnes Speichern</h2>
-  <p>Wenn eine Seite ein Dutzend Bilder enthält, ist das einzelne Speichern langsam und fehleranfällig. Am Ende fehlen ein paar, oder du erwischt versehentlich niedrig aufgelöste Vorschaubilder. Der Stapel-Download nimmt dir die Arbeit ab: Eine Aktion sammelt alles, und du entscheidest danach, was du behältst.</p>
+  <h2>Schritt 1: Die URL der Galerie oder des Forums einfügen</h2>
+  <p>Öffne ImageGet und füge den Link zu der Nachrichten-Galerie, dem Artikel oder dem Forum-Thread ein, den du speichern möchtest. Du kannst die URL aus jedem Browser kopieren oder den integrierten Browser von ImageGet nutzen, um die Seite direkt zu besuchen. ImageGet durchsucht die Seite und beginnt, die Bilder darauf zu sammeln.</p>
 
-  <h2>So funktioniert es in vier Schritten</h2>
-  <ol>
-    <li><strong>Anmelden oder URL kopieren.</strong> Melde dich mit deinem Instagram-Konto an oder öffne eine beliebige Seite – eine Fotogalerie, einen Forum-Thread, einen Nachrichtenartikel – und kopiere den Link.</li>
-    <li><strong>In ImageGet einfügen.</strong> Öffne die App, füge den Link ein und tippe auf <em>Go</em>. ImageGet durchsucht die Seite und sammelt jedes Bild und jedes Reel darauf.</li>
-  </ol>
+  <img src="../../images/iphone-2.png" alt="URL einer Nachrichten-Galerie in ImageGet einfügen" loading="lazy" style="width:100%;max-width:340px;margin:24px auto 8px;display:block;border-radius:20px;border:2px solid rgba(0,0,0,.14);box-shadow:0 12px 30px rgba(0,0,0,.14);" />
 
-  <img src="../../images/iphone-2.png" alt="Bilder von Webseiten herunterladen – Link in ImageGet einfügen" loading="lazy" style="width:100%;max-width:340px;margin:24px auto 8px;display:block;border-radius:20px;border:2px solid rgba(0,0,0,.14);box-shadow:0 12px 30px rgba(0,0,0,.14);" />
+  <h2>Schritt 2: Jedes Bild sammeln</h2>
+  <p>ImageGet sammelt jedes Bild auf der Seite – einschließlich der Fotos in einer Nachrichten-Galerie und der Bilder in voller Größe in einem Forum-Thread, auch die, die erst beim Scrollen nachgeladen werden. Du musst nicht jedes einzeln per Rechtsklick speichern. Wenn sich eine Geschichte über mehrere Seiten erstreckt, füge jede URL ein und lass ImageGet alle sammeln.</p>
 
-  <ol start="3">
-    <li><strong>Bilder ansehen.</strong> Alle Bilder erscheinen in einem übersichtlichen Raster. Tippe ein Bild an, um es im Vollbild anzusehen, und zoome per Pinch, bevor du dich entscheidest.</li>
-    <li><strong>Alles speichern.</strong> Tippe auf <em>Save All</em>, um den ganzen Stapel in einem Durchgang in deine Fotomediathek zu übertragen.</li>
-  </ol>
+  <img src="../../images/iphone-4.png" alt="Bilder aus einer Nachrichten-Galerie werden in ImageGet gesammelt" loading="lazy" style="width:100%;max-width:340px;margin:24px auto 8px;display:block;border-radius:20px;border:2px solid rgba(0,0,0,.14);box-shadow:0 12px 30px rgba(0,0,0,.14);" />
 
-  <img src="../../images/iphone-5.png" alt="Bilder im Stapel herunterladen – in der Fotomediathek gespeichert" loading="lazy" style="width:100%;max-width:340px;margin:24px auto 8px;display:block;border-radius:20px;border:2px solid rgba(0,0,0,.14);box-shadow:0 12px 30px rgba(0,0,0,.14);" />
+  <h2>Schritt 3: Auswählen und herunterladen</h2>
+  <p>Sieh dir die gesammelten Bilder in einem übersichtlichen Raster an. Tippe ein Bild an, um es im Vollbild anzusehen, wähle dann die Fotos aus, die du behalten möchtest, und lade sie mit einem Tippen in deine Fotomediathek. Mit <strong>Smart Filtering</strong> überspringst du winzige Vorschaubilder und Profilbilder und behältst nur die Fotos in voller Größe.</p>
 
-  <h2>Profi-Tipp: den Kleinkram herausfiltern</h2>
-  <p>Nicht jedes Bild auf einer Seite ist es wert, behalten zu werden. Icons, Profilbilder und winzige Vorschaubilder machen deine Mediathek unübersichtlich. Aktiviere <strong>Smart Filtering</strong> und lege eine Mindestgröße fest – ImageGet überspringt den kleinen Kram automatisch und behält nur die größeren Bilder, die du wirklich willst.</p>
+  <img src="../../images/iphone-5.png" alt="Fotos aus einer Nachrichten-Galerie zum Herunterladen in ImageGet auswählen" loading="lazy" style="width:100%;max-width:340px;margin:24px auto 8px;display:block;border-radius:20px;border:2px solid rgba(0,0,0,.14);box-shadow:0 12px 30px rgba(0,0,0,.14);" />
 
-  <img src="../../images/iphone-4.png" alt="Bilder im Stapel herunterladen – kleine Icons herausfiltern" loading="lazy" style="width:100%;max-width:340px;margin:24px auto 8px;display:block;border-radius:20px;border:2px solid rgba(0,0,0,.14);box-shadow:0 12px 30px rgba(0,0,0,.14);" />
-
-  <h2>Profi-Tipp: mehrere Seiten in die Warteschlange stellen</h2>
-  <p>Du arbeitest mehrere Seiten durch? Stelle sie in die Warteschlange und lass ImageGet im Hintergrund arbeiten, während du weiter browst. Du musst nicht warten – deine Bilder sind fertig, wenn du es bist.</p>
+  <h2>Tipps zum Speichern aus Galerien und Foren</h2>
+  <ul>
+    <li><strong>Eine ganze Galerie herunterladen</strong> — lade eine komplette Nachrichten-Galerie oder einen Forum-Thread in einem Durchgang im Stapel herunter.</li>
+    <li><strong>Smart Filtering nutzen</strong> — überspringe Vorschaubilder, Profilbilder und Icons und behalte nur die Fotos in voller Größe.</li>
+    <li><strong>Urheberrecht beachten</strong> — speichere nur Bilder, die du behalten darfst, und nenne immer den ursprünglichen Fotografen.</li>
+  </ul>
 
   <h2>FAQ</h2>
-  <h3>Wie lade ich alle Bilder einer Webseite auf einmal herunter?</h3>
-  <p>Füge eine URL in ImageGet ein, tippe auf <em>Go</em>, sieh dir das Raster an und tippe dann auf <em>Save All</em>. Alle Bilder der Seite werden in einem Durchgang in deiner Fotomediathek gespeichert.</p>
-  <h3>Kann ich Bilder kostenlos im Stapel herunterladen?</h3>
-  <p>Ja — der kostenlose Tarif umfasst 2 Downloads für Web-Bilder. Mit Premium sind Speichern und Werbefreiheit unbegrenzt.</p>
-  <h3>Funktioniert es mit Instagram und anderen Seiten?</h3>
-  <p>Ja. Melde dich bei Instagram an, um Bilder und Reels zu speichern, oder füge eine URL von einer anderen Website ein, um deren Bilder herunterzuladen.</p>
+  <h3>Kann ich eine ganze Nachrichten-Galerie auf einmal herunterladen?</h3>
+  <p>Ja — füge die URL der Galerie ein und nutze den Stapelmodus, um die gesamte Galerie in einem Durchgang herunterzuladen.</p>
+  <h3>Werden die Fotos in voller Qualität heruntergeladen?</h3>
+  <p>Ja — die Fotos werden in voller Auflösung gespeichert, ohne Komprimierung und ohne Wasserzeichen.</p>
+  <h3>Mit welchen Seiten funktioniert es?</h3>
+  <p>Mit jeder Seite, die du im Browser öffnen kannst — Nachrichten-Galerien, Fotoforen und Community-Threads.</p>
 
   <div class="cta">
     <h2>Sehen. Speichern. Einfach.</h2>
-    <p>Lade ImageGet kostenlos herunter und speichere Bilder und Reels mit einem Tippen.</p>
+    <p>Lade ImageGet kostenlos herunter und speichere Bilder aus Nachrichten-Galerien und Foren mit einem Tippen.</p>
     <a href="https://apps.apple.com/us/app/imageget-downloader-from-web/id878190312" target="_blank" rel="noopener" class="btn">ImageGet herunterladen</a>
   </div>
 </main>

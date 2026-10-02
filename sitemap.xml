@@ -65,6 +65,7 @@
     <loc>https://imageget.rayyao.com/blog/batch-download-images.html</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/blog/batch-download-images.html" />
     <xhtml:link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/blog/batch-download-images.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://imageget.rayyao.com/fr/blog/batch-download-images.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/blog/batch-download-images.html" />
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
@@ -74,6 +75,17 @@
     <loc>https://imageget.rayyao.com/de/blog/batch-download-images.html</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/blog/batch-download-images.html" />
     <xhtml:link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/blog/batch-download-images.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://imageget.rayyao.com/fr/blog/batch-download-images.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/blog/batch-download-images.html" />
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://imageget.rayyao.com/fr/blog/batch-download-images.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/blog/batch-download-images.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/blog/batch-download-images.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://imageget.rayyao.com/fr/blog/batch-download-images.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/blog/batch-download-images.html" />
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
@@ -81,6 +93,18 @@
   </url>
   <url>
     <loc>https://imageget.rayyao.com/blog/getting-started.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/blog/getting-started.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/blog/getting-started.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/blog/getting-started.html" />
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://imageget.rayyao.com/de/blog/getting-started.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/blog/getting-started.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/blog/getting-started.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/blog/getting-started.html" />
     <lastmod>2026-08-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -119,6 +143,7 @@
     <loc>https://imageget.rayyao.com/blog/download-manga-comic-images.html</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/blog/download-manga-comic-images.html" />
     <xhtml:link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/blog/download-manga-comic-images.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://imageget.rayyao.com/fr/blog/download-manga-comic-images.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/blog/download-manga-comic-images.html" />
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
@@ -128,6 +153,17 @@
     <loc>https://imageget.rayyao.com/de/blog/download-manga-comic-images.html</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/blog/download-manga-comic-images.html" />
     <xhtml:link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/blog/download-manga-comic-images.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://imageget.rayyao.com/fr/blog/download-manga-comic-images.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/blog/download-manga-comic-images.html" />
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://imageget.rayyao.com/fr/blog/download-manga-comic-images.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/blog/download-manga-comic-images.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/blog/download-manga-comic-images.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://imageget.rayyao.com/fr/blog/download-manga-comic-images.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/blog/download-manga-comic-images.html" />
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
@@ -165,6 +201,18 @@
   </url>
   <url>
     <loc>https://imageget.rayyao.com/blog/save-news-gallery-images.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/blog/save-news-gallery-images.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/blog/save-news-gallery-images.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/blog/save-news-gallery-images.html" />
+    <lastmod>2026-09-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://imageget.rayyao.com/de/blog/save-news-gallery-images.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/blog/save-news-gallery-images.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/blog/save-news-gallery-images.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/blog/save-news-gallery-images.html" />
     <lastmod>2026-09-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
