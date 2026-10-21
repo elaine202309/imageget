@@ -65,8 +65,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/blog.html" />
     <xhtml:link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/blog.html" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://imageget.rayyao.com/fr/blog.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://imageget.rayyao.com/it/blog.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://imageget.rayyao.com/ja/blog.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/blog.html" />
-    <lastmod>2026-09-29</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -75,8 +77,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/blog.html" />
     <xhtml:link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/blog.html" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://imageget.rayyao.com/fr/blog.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://imageget.rayyao.com/it/blog.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://imageget.rayyao.com/ja/blog.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/blog.html" />
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -85,10 +89,36 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/blog.html" />
     <xhtml:link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/blog.html" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://imageget.rayyao.com/fr/blog.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://imageget.rayyao.com/it/blog.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://imageget.rayyao.com/ja/blog.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/blog.html" />
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://imageget.rayyao.com/it/blog.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/blog.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/blog.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://imageget.rayyao.com/fr/blog.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://imageget.rayyao.com/it/blog.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://imageget.rayyao.com/ja/blog.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/blog.html" />
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imageget.rayyao.com/ja/blog.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/blog.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/blog.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://imageget.rayyao.com/fr/blog.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://imageget.rayyao.com/it/blog.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://imageget.rayyao.com/ja/blog.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/blog.html" />
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://imageget.rayyao.com/blog/batch-download-images.html</loc>
@@ -360,8 +390,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/privacy.html" />
     <xhtml:link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/privacy.html" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://imageget.rayyao.com/fr/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://imageget.rayyao.com/it/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://imageget.rayyao.com/ja/privacy.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/privacy.html" />
-    <lastmod>2026-09-16</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
@@ -370,8 +402,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/privacy.html" />
     <xhtml:link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/privacy.html" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://imageget.rayyao.com/fr/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://imageget.rayyao.com/it/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://imageget.rayyao.com/ja/privacy.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/privacy.html" />
-    <lastmod>2026-09-16</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
@@ -380,8 +414,34 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/privacy.html" />
     <xhtml:link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/privacy.html" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://imageget.rayyao.com/fr/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://imageget.rayyao.com/it/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://imageget.rayyao.com/ja/privacy.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/privacy.html" />
-    <lastmod>2026-09-16</lastmod>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://imageget.rayyao.com/it/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://imageget.rayyao.com/fr/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://imageget.rayyao.com/it/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://imageget.rayyao.com/ja/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/privacy.html" />
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://imageget.rayyao.com/ja/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://imageget.rayyao.com/fr/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://imageget.rayyao.com/it/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://imageget.rayyao.com/ja/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/privacy.html" />
+    <lastmod>2026-10-21</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
@@ -391,8 +451,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/terms.html" />
     <xhtml:link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/terms.html" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://imageget.rayyao.com/fr/terms.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://imageget.rayyao.com/it/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://imageget.rayyao.com/ja/terms.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/terms.html" />
-    <lastmod>2026-09-16</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
@@ -401,8 +463,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/terms.html" />
     <xhtml:link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/terms.html" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://imageget.rayyao.com/fr/terms.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://imageget.rayyao.com/it/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://imageget.rayyao.com/ja/terms.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/terms.html" />
-    <lastmod>2026-09-16</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
@@ -411,8 +475,34 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/terms.html" />
     <xhtml:link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/terms.html" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://imageget.rayyao.com/fr/terms.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://imageget.rayyao.com/it/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://imageget.rayyao.com/ja/terms.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/terms.html" />
-    <lastmod>2026-09-16</lastmod>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://imageget.rayyao.com/it/terms.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/terms.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/terms.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://imageget.rayyao.com/fr/terms.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://imageget.rayyao.com/it/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://imageget.rayyao.com/ja/terms.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/terms.html" />
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://imageget.rayyao.com/ja/terms.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/terms.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/terms.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://imageget.rayyao.com/fr/terms.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://imageget.rayyao.com/it/terms.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://imageget.rayyao.com/ja/terms.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/terms.html" />
+    <lastmod>2026-10-21</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
@@ -422,8 +512,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/contact.html" />
     <xhtml:link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/contact.html" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://imageget.rayyao.com/fr/contact.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://imageget.rayyao.com/it/contact.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://imageget.rayyao.com/ja/contact.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/contact.html" />
-    <lastmod>2026-09-16</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
@@ -432,8 +524,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/contact.html" />
     <xhtml:link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/contact.html" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://imageget.rayyao.com/fr/contact.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://imageget.rayyao.com/it/contact.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://imageget.rayyao.com/ja/contact.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/contact.html" />
-    <lastmod>2026-09-16</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
@@ -442,8 +536,34 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/contact.html" />
     <xhtml:link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/contact.html" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://imageget.rayyao.com/fr/contact.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://imageget.rayyao.com/it/contact.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://imageget.rayyao.com/ja/contact.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/contact.html" />
-    <lastmod>2026-09-16</lastmod>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://imageget.rayyao.com/it/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/contact.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/contact.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://imageget.rayyao.com/fr/contact.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://imageget.rayyao.com/it/contact.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://imageget.rayyao.com/ja/contact.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/contact.html" />
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://imageget.rayyao.com/ja/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/contact.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/contact.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://imageget.rayyao.com/fr/contact.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://imageget.rayyao.com/it/contact.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://imageget.rayyao.com/ja/contact.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/contact.html" />
+    <lastmod>2026-10-21</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
@@ -453,8 +573,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/support.html" />
     <xhtml:link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/support.html" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://imageget.rayyao.com/fr/support.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://imageget.rayyao.com/it/support.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://imageget.rayyao.com/ja/support.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/support.html" />
-    <lastmod>2026-09-16</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
@@ -463,8 +585,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/support.html" />
     <xhtml:link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/support.html" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://imageget.rayyao.com/fr/support.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://imageget.rayyao.com/it/support.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://imageget.rayyao.com/ja/support.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/support.html" />
-    <lastmod>2026-09-16</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
@@ -473,8 +597,34 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/support.html" />
     <xhtml:link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/support.html" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://imageget.rayyao.com/fr/support.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://imageget.rayyao.com/it/support.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://imageget.rayyao.com/ja/support.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/support.html" />
-    <lastmod>2026-09-16</lastmod>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://imageget.rayyao.com/it/support.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/support.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/support.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://imageget.rayyao.com/fr/support.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://imageget.rayyao.com/it/support.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://imageget.rayyao.com/ja/support.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/support.html" />
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://imageget.rayyao.com/ja/support.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/support.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/support.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://imageget.rayyao.com/fr/support.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://imageget.rayyao.com/it/support.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://imageget.rayyao.com/ja/support.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/support.html" />
+    <lastmod>2026-10-21</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
