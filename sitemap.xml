@@ -628,4 +628,64 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
+  <url>
+    <loc>https://imageget.rayyao.com/supported-sites.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/supported-sites.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/supported-sites.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://imageget.rayyao.com/fr/supported-sites.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://imageget.rayyao.com/it/supported-sites.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://imageget.rayyao.com/ja/supported-sites.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/supported-sites.html" />
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://imageget.rayyao.com/de/supported-sites.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/supported-sites.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/supported-sites.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://imageget.rayyao.com/fr/supported-sites.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://imageget.rayyao.com/it/supported-sites.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://imageget.rayyao.com/ja/supported-sites.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/supported-sites.html" />
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://imageget.rayyao.com/fr/supported-sites.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/supported-sites.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/supported-sites.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://imageget.rayyao.com/fr/supported-sites.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://imageget.rayyao.com/it/supported-sites.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://imageget.rayyao.com/ja/supported-sites.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/supported-sites.html" />
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://imageget.rayyao.com/it/supported-sites.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/supported-sites.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/supported-sites.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://imageget.rayyao.com/fr/supported-sites.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://imageget.rayyao.com/it/supported-sites.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://imageget.rayyao.com/ja/supported-sites.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/supported-sites.html" />
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://imageget.rayyao.com/ja/supported-sites.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/supported-sites.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/supported-sites.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://imageget.rayyao.com/fr/supported-sites.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://imageget.rayyao.com/it/supported-sites.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://imageget.rayyao.com/ja/supported-sites.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/supported-sites.html" />
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
 </urlset>
