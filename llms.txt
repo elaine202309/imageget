@@ -1,0 +1,47 @@
+# ImageGet
+
+> ImageGet is an iOS and iPadOS app that saves photos and videos from the web straight to your photo library. Open Instagram Batch Download to keep photos, carousels and Reels; paste any web page URL to collect every image on the page; or use Video Download for YouTube Shorts, X (Twitter), Facebook Reels, Instagram Reels, bilibili, xHamster, EPORNER and xVideos. One tap, everything saved.
+
+ImageGet - Downloader From Web is available on the App Store (App Store ID 878190312), rated 17+.
+
+## Product
+
+- [ImageGet home](https://imageget.rayyao.com/): How the app works, features, free plan and Premium.
+- [Supported sites](https://imageget.rayyao.com/supported-sites.html): Every site and platform the app can save from, listed by the names shown in the app.
+- [How it works](https://imageget.rayyao.com/#how): The three-step flow — log in or paste a link, review what was found, save to your photo library.
+- [Features](https://imageget.rayyao.com/#features): Batch download, size filtering, full-screen preview, background operation, built-in browser.
+- [Premium and pricing](https://imageget.rayyao.com/#pricing): What the free plan includes and what Premium unlocks.
+
+## Guides
+
+- [Getting Started with ImageGet in 5 Minutes](https://imageget.rayyao.com/blog/getting-started.html): New to ImageGet? This quick guide gets you from download to your first saved batch in about five minutes.
+- [How to Batch Download Images from Web in One Tap](https://imageget.rayyao.com/blog/batch-download-images.html): Learn how to batch download images from web with ImageGet. Paste any URL and save every image on the page in a single tap — no more right-clicking or screenshots.
+- [How to Save Instagram Photos, Reels & Videos](https://imageget.rayyao.com/blog/save-instagram-photos.html): Learn how to save Instagram photos, reels, and videos to your photo library with ImageGet. Log in, browse, and download in one tap — no screenshots or screen recording.
+- [How to Download Images from News Galleries & Photography Forums](https://imageget.rayyao.com/blog/save-news-gallery-images.html): Learn how to download images from news galleries and photography forums with ImageGet. Paste a URL and save every photo in one tap — full quality, no screenshots.
+- [How to Download Manga & Comic Images from Comic Sites](https://imageget.rayyao.com/blog/download-manga-comic-images.html): Learn how to download manga and comic images from comic sites in one tap. Paste a URL and save every page with ImageGet — full quality, no screenshots.
+- [How to Download YouTube Shorts](https://imageget.rayyao.com/blog/download-youtube-shorts.html): Learn how to download YouTube Shorts to your photo library with ImageGet. Paste a Shorts link and save the video in one tap — full quality, no screen recording.
+- [How to Download X (Twitter) Videos](https://imageget.rayyao.com/blog/download-x-videos.html): Learn how to download X (Twitter) videos to your photo library with ImageGet. Paste a post link and save the video in one tap — full quality, no screen recording.
+- [How to Download Facebook Reels](https://imageget.rayyao.com/blog/download-facebook-reels.html): Learn how to download Facebook Reels to your photo library with ImageGet. Paste a Reel link and save the video in one tap — full quality, no screen recording.
+- [How to Download bilibili Videos](https://imageget.rayyao.com/blog/download-bilibili-videos.html): Learn how to download bilibili videos to your photo library with ImageGet. Paste a video link and save it in one tap — no screen recording, no third-party tools.
+- [How to Download xHamster Videos](https://imageget.rayyao.com/blog/download-xhamster-videos.html): Learn how to download xHamster videos to your photo library with ImageGet. Paste a video link, pick a quality, and save it in one tap — no screen recording, no third-party tools.
+- [How to Download EPORNER Videos](https://imageget.rayyao.com/blog/download-eporner-videos.html): Learn how to download EPORNER videos to your photo library with ImageGet. Paste a video link, pick a quality, and save it in one tap — no screen recording, no third-party tools.
+- [How to Download Videos from xVideos](https://imageget.rayyao.com/blog/download-from-xvideos.html): Learn how to download xVideos videos to your photo library with ImageGet. Paste a video link, pick a quality, and save it in one tap — no screen recording, no converter sites.
+
+## Languages
+
+- English: https://imageget.rayyao.com/
+- German: https://imageget.rayyao.com/de/
+- French: https://imageget.rayyao.com/fr/
+- Italian: https://imageget.rayyao.com/it/
+- Japanese: https://imageget.rayyao.com/ja/
+
+Guide articles are published in English, German and French.
+
+## Support and legal
+
+- [FAQ](https://imageget.rayyao.com/#faq)
+- [Support](https://imageget.rayyao.com/support.html)
+- [Contact](https://imageget.rayyao.com/contact.html)
+- [Privacy Policy](https://imageget.rayyao.com/privacy.html)
+- [Terms of Service](https://imageget.rayyao.com/terms.html)
+- [Blog](https://imageget.rayyao.com/blog.html)
