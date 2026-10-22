@@ -35,7 +35,12 @@ ImageGet - Downloader From Web is available on the App Store (App Store ID 87819
 - Italian: https://imageget.rayyao.com/it/
 - Japanese: https://imageget.rayyao.com/ja/
 
-Guide articles are published in English, German and French.
+The first eight guides listed above are published in English, German, French, Italian and Japanese. The four newest — bilibili, xHamster, EPORNER and xVideos — are English only.
+
+- [German guides](https://imageget.rayyao.com/de/blog.html)
+- [French guides](https://imageget.rayyao.com/fr/blog.html)
+- [Italian guides](https://imageget.rayyao.com/it/blog.html)
+- [Japanese guides](https://imageget.rayyao.com/ja/blog.html)
 
 ## Support and legal
 

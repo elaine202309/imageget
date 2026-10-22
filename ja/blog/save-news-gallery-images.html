@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="canonical" href="https://imageget.rayyao.com/ja/blog/save-news-gallery-images.html" />
+<meta property="og:site_name" content="ImageGet" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://imageget.rayyao.com/ja/blog/save-news-gallery-images.html" />
+<meta property="og:title" content="ニュース写真・掲示板の画像を保存する方法 — ImageGet" />
+<meta property="og:description" content="ニュースの写真ギャラリーや写真掲示板の画像を ImageGet でまとめて保存。URL を貼り付けてワンタップ。スクリーンショット不要、高画質のまま。" />
+<meta property="og:image" content="https://imageget.rayyao.com/images/og-save-news-gallery-images.jpg" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="ImageGet — Web の写真と動画をワンタップで保存" />
+<meta property="og:locale" content="ja_JP" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="ニュース写真・掲示板の画像を保存する方法 — ImageGet" />
+<meta name="twitter:description" content="ニュースの写真ギャラリーや写真掲示板の画像を ImageGet でまとめて保存。URL を貼り付けてワンタップ。スクリーンショット不要、高画質のまま。" />
+<meta name="twitter:image" content="https://imageget.rayyao.com/images/og-save-news-gallery-images.jpg" />
+<title>ニュース写真・掲示板の画像を保存する方法 — ImageGet</title>
+<meta name="description" content="ニュースの写真ギャラリーや写真掲示板の画像を ImageGet でまとめて保存。URL を貼り付けてワンタップ。スクリーンショット不要、高画質のまま。" />
+<link rel="icon" type="image/png" href="../../images/imageget.png" />
+<meta name="google-site-verification" content="fKMPGIHzQejo5i1IyGI4EdbKFSJUtiFocqQJe095gkk" />
+<link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/blog/save-news-gallery-images.html" />
+<link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/blog/save-news-gallery-images.html" />
+<link rel="alternate" hreflang="fr" href="https://imageget.rayyao.com/fr/blog/save-news-gallery-images.html" />
+<link rel="alternate" hreflang="it" href="https://imageget.rayyao.com/it/blog/save-news-gallery-images.html" />
+<link rel="alternate" hreflang="ja" href="https://imageget.rayyao.com/ja/blog/save-news-gallery-images.html" />
+<link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/blog/save-news-gallery-images.html" />
+<style>
+  :root { --ink:#1d1d1f; --muted:#6e6e73; --line:rgba(0,0,0,.08); --indigo:#4f46e5; --grad:linear-gradient(135deg,#6366f1 0%,#8b5cf6 45%,#d946ef 100%); --bg-soft:#f5f5f7; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,Helvetica,Arial,sans-serif; color:var(--ink); line-height:1.7; -webkit-font-smoothing:antialiased; }
+  a { color:inherit; text-decoration:none; }
+  img { display:block; }
+  .wrap { width:100%; max-width:1120px; margin:0 auto; padding:0 24px; }
+  nav { position:sticky; top:0; z-index:50; background:rgba(255,255,255,.72); -webkit-backdrop-filter:saturate(180%) blur(20px); backdrop-filter:saturate(180%) blur(20px); border-bottom:1px solid var(--line); }
+  .nav-inner { display:flex; align-items:center; justify-content:space-between; height:64px; }
+  .brand { display:flex; align-items:center; gap:10px; font-weight:700; font-size:18px; letter-spacing:-.01em; }
+  .brand .logo { width:34px; height:34px; border-radius:9px; flex:none; object-fit:cover; box-shadow:0 2px 10px rgba(0,0,0,.16); }
+  .nav-links { display:flex; align-items:center; gap:28px; font-size:14px; font-weight:500; color:#424245; }
+  .nav-links a { transition:color .2s; }
+  .nav-links a:hover { color:var(--indigo); }
+  .lang { display:flex; align-items:center; gap:4px; font-size:13px; font-weight:600; }
+  .lang a { color:var(--muted); padding:4px 7px; border-radius:6px; }
+  .lang a.active { color:var(--ink); background:#e9e9ee; }
+  .lang a:hover { color:var(--indigo); }
+  .btn { display:inline-flex; align-items:center; justify-content:center; gap:8px; font-weight:600; border-radius:999px; cursor:pointer; transition:transform .15s ease, box-shadow .2s ease; border:none; font-family:inherit; }
+  .btn-sm { padding:9px 18px; font-size:14px; }
+  .btn-primary { background:var(--ink); color:#fff; }
+  main { max-width:760px; margin:0 auto; padding:64px 24px 96px; }
+  .back { display:inline-block; font-size:14px; font-weight:600; color:var(--muted); margin-bottom:28px; }
+  .back:hover { color:var(--indigo); }
+  h1 { font-size:clamp(30px,5vw,42px); font-weight:800; letter-spacing:-.02em; line-height:1.15; }
+  .meta { color:var(--muted); font-size:14px; margin:12px 0 32px; }
+  h2 { font-size:22px; font-weight:700; letter-spacing:-.01em; margin:36px 0 12px; }
+  h3 { font-size:17px; font-weight:700; letter-spacing:-.01em; margin:24px 0 8px; }
+  p { color:#3c3c43; margin-bottom:16px; }
+  ol, ul { padding-left:24px; margin:0 0 16px; color:#3c3c43; }
+  li { margin-bottom:8px; }
+  .cta { background:var(--grad); border-radius:20px; padding:36px 28px; margin:32px 0; text-align:center; color:#fff; }
+  .cta h2 { font-size:24px; font-weight:800; letter-spacing:-.02em; margin-bottom:10px; color:#fff; }
+  .cta p { color:rgba(255,255,255,.92); font-size:16px; margin:0 auto 20px; max-width:460px; }
+  .cta .btn { background:#fff; color:#111; padding:12px 26px; font-size:15px; }
+  footer { border-top:1px solid var(--line); padding:56px 0 40px; background:var(--bg-soft); }
+  .foot-grid { display:flex; justify-content:space-between; gap:32px; flex-wrap:wrap; }
+  .foot-col h4 { font-size:13px; font-weight:700; text-transform:uppercase; letter-spacing:.1em; color:var(--muted); margin-bottom:14px; }
+  .foot-col a { display:block; color:#424245; font-size:14px; padding:5px 0; }
+  .foot-col a:hover { color:var(--indigo); }
+  .foot-bottom { margin-top:40px; padding-top:24px; border-top:1px solid var(--line); display:flex; justify-content:space-between; gap:16px; flex-wrap:wrap; color:var(--muted); font-size:13px; }
+  @media (max-width:960px) { .nav-links { display:none; } }
+</style>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6EVZZKY1KC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-6EVZZKY1KC');
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "ニュースの写真ギャラリーを一度にすべてダウンロードできますか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "はい。ギャラリーの URL を貼り付け、まとめ保存モードを使えば、ギャラリー全体を一度にダウンロードできます。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "写真は高画質で保存されますか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "はい。写真は最大解像度で保存され、圧縮も透かしもありません。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "どんなサイトに対応していますか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "閲覧できるサイトであれば対応します。ニュースの写真ギャラリー、写真掲示板、コミュニティのスレッドなどです。"
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://imageget.rayyao.com/ja/blog/save-news-gallery-images.html"
+  },
+  "headline": "ニュース写真・掲示板の画像を保存する方法",
+  "description": "ニュースの写真ギャラリーや写真掲示板の画像を ImageGet でまとめて保存。URL を貼り付けてワンタップ。スクリーンショット不要、高画質のまま。",
+  "image": "https://imageget.rayyao.com/images/iphone-2.webp",
+  "datePublished": "2026-09-22",
+  "dateModified": "2026-09-22",
+  "inLanguage": "ja",
+  "author": {
+    "@type": "Organization",
+    "name": "ImageGet チーム",
+    "url": "https://imageget.rayyao.com/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "ImageGet",
+    "url": "https://imageget.rayyao.com/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://imageget.rayyao.com/images/imageget.png"
+    }
+  }
+}
+</script>
+</head>
+<body>
+
+<nav>
+  <div class="wrap nav-inner">
+    <a href="../index.html" class="brand">
+      <img class="logo" src="../../images/imageget.png" alt="ImageGet ロゴ" />
+      ImageGet
+    </a>
+    <div class="nav-links">
+      <a href="../index.html#features">機能</a>
+      <a href="../index.html#how">使い方</a>
+      <a href="../index.html#pricing">プレミアム</a>
+      <a href="../index.html#faq">FAQ</a>
+      <a href="../blog.html">ブログ</a>
+    </div>
+    <div class="lang">
+      <a href="../../blog/save-news-gallery-images.html">EN</a>
+      <a href="../../de/blog/save-news-gallery-images.html">DE</a>
+      <a href="../../fr/blog/save-news-gallery-images.html">FR</a>
+      <a href="../../it/blog/save-news-gallery-images.html">IT</a>
+      <a href="save-news-gallery-images.html" class="active">JA</a>
+    </div>
+    <a href="https://apps.apple.com/us/app/imageget-downloader-from-web/id878190312" target="_blank" rel="noopener" class="btn btn-primary btn-sm">ダウンロード</a>
+  </div>
+</nav>
+
+<main>
+  <a class="back" href="../blog.html">← 記事一覧</a>
+  <h1>ニュース写真・掲示板の画像を保存する方法</h1>
+  <p class="meta">2026年9月22日 · ImageGet チーム</p>
+
+  <p>ニュースサイトの写真ギャラリーや写真掲示板には、保存しておきたい画像がたくさんあります。しかし 1 枚ずつダウンロードするのは時間がかかり、面倒なものです。ImageGet なら違います。URL を貼り付けるだけでページ内の画像をまとめて集められるので、確認してワンタップでダウンロードできます。ニュースの写真ギャラリーや写真掲示板の画像をダウンロードする手順を紹介します。</p>
+
+  <div class="cta">
+    <p>ImageGet を無料でダウンロード — ニュースの写真ギャラリーや掲示板の画像をワンタップで保存。</p>
+    <a href="https://apps.apple.com/us/app/imageget-downloader-from-web/id878190312" target="_blank" rel="noopener" class="btn">ImageGetをダウンロード</a>
+  </div>
+
+  <h2>ステップ 1: ギャラリーや掲示板の URL を貼り付ける</h2>
+  <p>ImageGet を開き、保存したいギャラリーや記事、掲示板のスレッドのリンクを貼り付けます。ブラウザから URL をコピーしても、ImageGet の内蔵ブラウザでサイトを直接開いてもかまいません。ImageGet がページを解析して画像を集め始めます。</p>
+  <img src="../../images/iphone-2.webp" alt="ニュースの写真ギャラリーの URL を ImageGet に貼り付け" loading="lazy" style="width:100%;max-width:340px;margin:24px auto 8px;display:block;border-radius:20px;border:2px solid rgba(0,0,0,.14);box-shadow:0 12px 30px rgba(0,0,0,.14);" />
+  <h2>ステップ 2: 画像をまとめて集める</h2>
+  <p>ImageGet はページ内の画像をすべて集めます。ニュースの写真ギャラリーの写真や、掲示板スレッドの原寸画像も、スクロールに合わせて読み込まれるものまで含まれます。右クリックして 1 枚ずつ保存する必要はありません。記事が複数ページに分かれている場合は、各ページの URL を貼り付けて、ImageGet にすべて集めさせてください。</p>
+  <img src="../../images/iphone-4.webp" alt="ImageGet でニュースの写真ギャラリーの画像を集める" loading="lazy" style="width:100%;max-width:340px;margin:24px auto 8px;display:block;border-radius:20px;border:2px solid rgba(0,0,0,.14);box-shadow:0 12px 30px rgba(0,0,0,.14);" />
+  <h2>ステップ 3: 選んでダウンロード</h2>
+  <p>集めた画像をきれいなグリッドで確認します。画像をタップすると全画面プレビューになり、残したい写真を選んでワンタップで写真ライブラリへダウンロードできます。小さなサムネイルやアバターを飛ばして、原寸の写真だけを残したいときは <strong>Smart Filtering</strong> を使います。</p>
+  <img src="../../images/iphone-5.webp" alt="ImageGet でダウンロードするニュース写真を選ぶ" loading="lazy" style="width:100%;max-width:340px;margin:24px auto 8px;display:block;border-radius:20px;border:2px solid rgba(0,0,0,.14);box-shadow:0 12px 30px rgba(0,0,0,.14);" />
+  <h2>ギャラリー・掲示板の保存のヒント</h2>
+  <ul>
+    <li><strong>ギャラリーごと保存</strong> — ニュースの写真ギャラリーや掲示板のスレッドを、まとめて一括ダウンロードできます。</li>
+    <li><strong>Smart Filtering を活用</strong> — サムネイルやアバター、アイコンを飛ばし、原寸の写真だけを残します。</li>
+    <li><strong>著作権を尊重</strong> — 保存する権利のある画像だけを保存し、必ず元の撮影者を明記してください。</li>
+  </ul>
+  <h2>よくある質問</h2>
+  <h3>ニュースの写真ギャラリーを一度にすべてダウンロードできますか？</h3>
+  <p>はい。ギャラリーの URL を貼り付け、まとめ保存モードを使えば、ギャラリー全体を一度にダウンロードできます。</p>
+  <h3>写真は高画質で保存されますか？</h3>
+  <p>はい。写真は最大解像度で保存され、圧縮も透かしもありません。</p>
+  <h3>どんなサイトに対応していますか？</h3>
+  <p>閲覧できるサイトであれば対応します。ニュースの写真ギャラリー、写真掲示板、コミュニティのスレッドなどです。</p>
+
+  <div class="cta">
+    <h2>見つけて、保存。かんたんに。</h2>
+    <p>ImageGet を無料でダウンロードして、ニュースの写真ギャラリーや掲示板の画像をワンタップで保存。</p>
+    <a href="https://apps.apple.com/us/app/imageget-downloader-from-web/id878190312" target="_blank" rel="noopener" class="btn">ImageGetをダウンロード</a>
+  </div>
+
+  <h2>関連ガイド</h2>
+  <ul style="list-style:none;padding:0;margin:0 0 8px;">
+    <li style="margin:6px 0;"><a href="batch-download-images.html" style="color:var(--indigo);font-weight:600;">Web の画像をまとめてダウンロードする方法</a></li>
+    <li style="margin:6px 0;"><a href="download-manga-comic-images.html" style="color:var(--indigo);font-weight:600;">マンガ・コミックの画像をダウンロードする方法</a></li>
+    <li style="margin:6px 0;"><a href="save-instagram-photos.html" style="color:var(--indigo);font-weight:600;">Instagram の写真・リール・動画を保存する方法</a></li>
+    <li style="margin:6px 0;"><a href="../supported-sites.html" style="color:var(--indigo);font-weight:600;">対応サイトをすべて見る</a></li>
+  </ul>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-col">
+        <a href="../index.html" class="brand" style="font-size:16px;">
+          <img class="logo" src="../../images/imageget.png" alt="ImageGet ロゴ" />
+          ImageGet
+        </a>
+        <p style="color:var(--muted);font-size:14px;margin-top:12px;max-width:260px;">見つけて、保存。かんたんに。Webのためのオールインワン画像保存アプリ。</p>
+      </div>
+      <div class="foot-col">
+        <h4>製品</h4>
+        <a href="../index.html#features">機能</a>
+        <a href="../index.html#how">使い方</a>
+        <a href="../index.html#pricing">プレミアム</a>
+        <a href="../supported-sites.html">対応サイト</a>
+        <a href="../blog.html">ブログ</a>
+      </div>
+      <div class="foot-col">
+        <h4>サポート</h4>
+        <a href="../index.html#faq">FAQ</a>
+        <a href="../contact.html">お問い合わせ</a>
+        <a href="../support.html">サポート</a>
+      </div>
+      <div class="foot-col">
+        <h4>法的情報</h4>
+        <a href="../privacy.html">プライバシーポリシー</a>
+        <a href="../terms.html">利用規約</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 ImageGet. All rights reserved.</span>
+      <span>ImageGet - Downloader From Web</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

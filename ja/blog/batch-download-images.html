@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="canonical" href="https://imageget.rayyao.com/ja/blog/batch-download-images.html" />
+<meta property="og:site_name" content="ImageGet" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://imageget.rayyao.com/ja/blog/batch-download-images.html" />
+<meta property="og:title" content="Web の画像をまとめてダウンロードする方法 — ImageGet" />
+<meta property="og:description" content="Web ページの画像をまとめて保存する方法を紹介。ImageGet なら URL を貼り付けてワンタップするだけで、ページ内の画像をすべて保存できます。" />
+<meta property="og:image" content="https://imageget.rayyao.com/images/og-batch-download-images.jpg" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="ImageGet — Web の写真と動画をワンタップで保存" />
+<meta property="og:locale" content="ja_JP" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Web の画像をまとめてダウンロードする方法 — ImageGet" />
+<meta name="twitter:description" content="Web ページの画像をまとめて保存する方法を紹介。ImageGet なら URL を貼り付けてワンタップするだけで、ページ内の画像をすべて保存できます。" />
+<meta name="twitter:image" content="https://imageget.rayyao.com/images/og-batch-download-images.jpg" />
+<title>Web の画像をまとめてダウンロードする方法 — ImageGet</title>
+<meta name="description" content="Web ページの画像をまとめて保存する方法を紹介。ImageGet なら URL を貼り付けてワンタップするだけで、ページ内の画像をすべて保存できます。" />
+<link rel="icon" type="image/png" href="../../images/imageget.png" />
+<meta name="google-site-verification" content="fKMPGIHzQejo5i1IyGI4EdbKFSJUtiFocqQJe095gkk" />
+<link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/blog/batch-download-images.html" />
+<link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/blog/batch-download-images.html" />
+<link rel="alternate" hreflang="fr" href="https://imageget.rayyao.com/fr/blog/batch-download-images.html" />
+<link rel="alternate" hreflang="it" href="https://imageget.rayyao.com/it/blog/batch-download-images.html" />
+<link rel="alternate" hreflang="ja" href="https://imageget.rayyao.com/ja/blog/batch-download-images.html" />
+<link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/blog/batch-download-images.html" />
+<style>
+  :root { --ink:#1d1d1f; --muted:#6e6e73; --line:rgba(0,0,0,.08); --indigo:#4f46e5; --grad:linear-gradient(135deg,#6366f1 0%,#8b5cf6 45%,#d946ef 100%); --bg-soft:#f5f5f7; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,Helvetica,Arial,sans-serif; color:var(--ink); line-height:1.7; -webkit-font-smoothing:antialiased; }
+  a { color:inherit; text-decoration:none; }
+  img { display:block; }
+  .wrap { width:100%; max-width:1120px; margin:0 auto; padding:0 24px; }
+  nav { position:sticky; top:0; z-index:50; background:rgba(255,255,255,.72); -webkit-backdrop-filter:saturate(180%) blur(20px); backdrop-filter:saturate(180%) blur(20px); border-bottom:1px solid var(--line); }
+  .nav-inner { display:flex; align-items:center; justify-content:space-between; height:64px; }
+  .brand { display:flex; align-items:center; gap:10px; font-weight:700; font-size:18px; letter-spacing:-.01em; }
+  .brand .logo { width:34px; height:34px; border-radius:9px; flex:none; object-fit:cover; box-shadow:0 2px 10px rgba(0,0,0,.16); }
+  .nav-links { display:flex; align-items:center; gap:28px; font-size:14px; font-weight:500; color:#424245; }
+  .nav-links a { transition:color .2s; }
+  .nav-links a:hover { color:var(--indigo); }
+  .lang { display:flex; align-items:center; gap:4px; font-size:13px; font-weight:600; }
+  .lang a { color:var(--muted); padding:4px 7px; border-radius:6px; }
+  .lang a.active { color:var(--ink); background:#e9e9ee; }
+  .lang a:hover { color:var(--indigo); }
+  .btn { display:inline-flex; align-items:center; justify-content:center; gap:8px; font-weight:600; border-radius:999px; cursor:pointer; transition:transform .15s ease, box-shadow .2s ease; border:none; font-family:inherit; }
+  .btn-sm { padding:9px 18px; font-size:14px; }
+  .btn-primary { background:var(--ink); color:#fff; }
+  main { max-width:760px; margin:0 auto; padding:64px 24px 96px; }
+  .back { display:inline-block; font-size:14px; font-weight:600; color:var(--muted); margin-bottom:28px; }
+  .back:hover { color:var(--indigo); }
+  h1 { font-size:clamp(30px,5vw,42px); font-weight:800; letter-spacing:-.02em; line-height:1.15; }
+  .meta { color:var(--muted); font-size:14px; margin:12px 0 32px; }
+  h2 { font-size:22px; font-weight:700; letter-spacing:-.01em; margin:36px 0 12px; }
+  h3 { font-size:17px; font-weight:700; letter-spacing:-.01em; margin:24px 0 8px; }
+  p { color:#3c3c43; margin-bottom:16px; }
+  ol, ul { padding-left:24px; margin:0 0 16px; color:#3c3c43; }
+  li { margin-bottom:8px; }
+  .cta { background:var(--grad); border-radius:20px; padding:36px 28px; margin:32px 0; text-align:center; color:#fff; }
+  .cta h2 { font-size:24px; font-weight:800; letter-spacing:-.02em; margin-bottom:10px; color:#fff; }
+  .cta p { color:rgba(255,255,255,.92); font-size:16px; margin:0 auto 20px; max-width:460px; }
+  .cta .btn { background:#fff; color:#111; padding:12px 26px; font-size:15px; }
+  footer { border-top:1px solid var(--line); padding:56px 0 40px; background:var(--bg-soft); }
+  .foot-grid { display:flex; justify-content:space-between; gap:32px; flex-wrap:wrap; }
+  .foot-col h4 { font-size:13px; font-weight:700; text-transform:uppercase; letter-spacing:.1em; color:var(--muted); margin-bottom:14px; }
+  .foot-col a { display:block; color:#424245; font-size:14px; padding:5px 0; }
+  .foot-col a:hover { color:var(--indigo); }
+  .foot-bottom { margin-top:40px; padding-top:24px; border-top:1px solid var(--line); display:flex; justify-content:space-between; gap:16px; flex-wrap:wrap; color:var(--muted); font-size:13px; }
+  @media (max-width:960px) { .nav-links { display:none; } }
+</style>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6EVZZKY1KC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-6EVZZKY1KC');
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Web ページの画像を一度にすべてダウンロードするには？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ImageGet に URL を貼り、Go をタップしてグリッドを確認し、Save All をタップします。ページ内の画像が一度に写真ライブラリへ保存されます。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "画像をまとめてダウンロードするのは無料ですか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "はい。無料プランには Web 画像 2 回分のダウンロードが含まれます。Premium にアップグレードすると、保存回数が無制限になり、広告も表示されません。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Instagram やほかのサイトでも使えますか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "はい。Instagram にログインして画像やリールを保存することも、ほかのサイトの URL を貼り付けて画像をダウンロードすることもできます。"
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://imageget.rayyao.com/ja/blog/batch-download-images.html"
+  },
+  "headline": "Web の画像をまとめてダウンロードする方法",
+  "description": "Web ページの画像をまとめて保存する方法を紹介。ImageGet なら URL を貼り付けてワンタップするだけで、ページ内の画像をすべて保存できます。",
+  "image": "https://imageget.rayyao.com/images/iphone-2.webp",
+  "datePublished": "2026-08-26",
+  "dateModified": "2026-08-26",
+  "inLanguage": "ja",
+  "author": {
+    "@type": "Organization",
+    "name": "ImageGet チーム",
+    "url": "https://imageget.rayyao.com/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "ImageGet",
+    "url": "https://imageget.rayyao.com/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://imageget.rayyao.com/images/imageget.png"
+    }
+  }
+}
+</script>
+</head>
+<body>
+
+<nav>
+  <div class="wrap nav-inner">
+    <a href="../index.html" class="brand">
+      <img class="logo" src="../../images/imageget.png" alt="ImageGet ロゴ" />
+      ImageGet
+    </a>
+    <div class="nav-links">
+      <a href="../index.html#features">機能</a>
+      <a href="../index.html#how">使い方</a>
+      <a href="../index.html#pricing">プレミアム</a>
+      <a href="../index.html#faq">FAQ</a>
+      <a href="../blog.html">ブログ</a>
+    </div>
+    <div class="lang">
+      <a href="../../blog/batch-download-images.html">EN</a>
+      <a href="../../de/blog/batch-download-images.html">DE</a>
+      <a href="../../fr/blog/batch-download-images.html">FR</a>
+      <a href="../../it/blog/batch-download-images.html">IT</a>
+      <a href="batch-download-images.html" class="active">JA</a>
+    </div>
+    <a href="https://apps.apple.com/us/app/imageget-downloader-from-web/id878190312" target="_blank" rel="noopener" class="btn btn-primary btn-sm">ダウンロード</a>
+  </div>
+</nav>
+
+<main>
+  <a class="back" href="../blog.html">← 記事一覧</a>
+  <h1>Web の画像をまとめてダウンロードする方法</h1>
+  <p class="meta">2026年8月26日 · ImageGet チーム</p>
+
+  <p>Web から画像を保存するには、以前は 1 枚ずつ右クリックするか、スクリーンショットを撮るしかありませんでした。ImageGet なら違います。URL を貼り付けてワンタップするだけで、ページ内の画像をまとめて保存できます。Instagram にログインして画像やリールを保存したり、お気に入りのサイトからまとめてダウンロードしたりできます。</p>
+
+  <div class="cta">
+    <p>ImageGet を無料でダウンロード — ページ内の画像とリールをワンタップでまとめて保存。</p>
+    <a href="https://apps.apple.com/us/app/imageget-downloader-from-web/id878190312" target="_blank" rel="noopener" class="btn">ImageGetをダウンロード</a>
+  </div>
+
+  <h2>1 枚ずつ保存するより、まとめて保存するほうがよい理由</h2>
+  <p>ページに画像が十数枚あるとき、1 枚ずつ保存するのは時間がかかるうえ、うっかり抜けが出たり、低画質のサムネイルを保存してしまったりします。まとめてダウンロードすれば、その手間はアプリが引き受けます。1 回の操作ですべてを集め、そこから残すものを選ぶだけです。</p>
+  <h2>4 つのステップ</h2>
+  <ol>
+    <li><strong>ログインするか、URL をコピーします。</strong> Instagram アカウントにログインするか、写真ギャラリー・掲示板のスレッド・ニュース記事など、任意のページを開いてリンクをコピーします。</li>
+    <li><strong>ImageGet に貼り付けます。</strong> アプリを開いてリンクを貼り、<em>Go</em> をタップします。ImageGet がページを解析し、画像とリールをすべて集めます。</li>
+  </ol>
+  <img src="../../images/iphone-2.webp" alt="Web の画像をまとめてダウンロード — ImageGet にリンクを貼り付け" loading="lazy" style="width:100%;max-width:340px;margin:24px auto 8px;display:block;border-radius:20px;border:2px solid rgba(0,0,0,.14);box-shadow:0 12px 30px rgba(0,0,0,.14);" />
+  <ol start="3">
+    <li><strong>画像を確認します。</strong> 集めた画像はきれいなグリッドで表示されます。タップすると全画面プレビューになり、ピンチで拡大してから選べます。</li>
+    <li><strong>まとめて保存します。</strong> <em>Save All</em> をタップすると、まとめた画像が一度に写真ライブラリへ保存されます。</li>
+  </ol>
+  <img src="../../images/iphone-5.webp" alt="画像をまとめてダウンロード — 写真ライブラリに保存" loading="lazy" style="width:100%;max-width:340px;margin:24px auto 8px;display:block;border-radius:20px;border:2px solid rgba(0,0,0,.14);box-shadow:0 12px 30px rgba(0,0,0,.14);" />
+  <h2>ヒント: 小さな画像を除外する</h2>
+  <p>ページ内のすべての画像を残す必要はありません。アイコンやアバター、小さなサムネイルはライブラリを圧迫します。<strong>Smart Filtering</strong> をオンにして最小サイズを設定すると、ImageGet が小さな画像を自動でスキップし、本当に必要な大きな画像だけを残します。</p>
+  <img src="../../images/iphone-4.webp" alt="画像をまとめてダウンロード — 小さなアイコンを除外" loading="lazy" style="width:100%;max-width:340px;margin:24px auto 8px;display:block;border-radius:20px;border:2px solid rgba(0,0,0,.14);box-shadow:0 12px 30px rgba(0,0,0,.14);" />
+  <h2>ヒント: 複数のページをキューに入れる</h2>
+  <p>保存したいページが複数あるときは、キューに追加しておけば、ImageGet がバックグラウンドで処理を進めます。待つ必要はありません。気づいたときには画像がそろっています。</p>
+  <h2>よくある質問</h2>
+  <h3>Web ページの画像を一度にすべてダウンロードするには？</h3>
+  <p>ImageGet に URL を貼り、<em>Go</em> をタップしてグリッドを確認し、<em>Save All</em> をタップします。ページ内の画像が一度に写真ライブラリへ保存されます。</p>
+  <h3>画像をまとめてダウンロードするのは無料ですか？</h3>
+  <p>はい。無料プランには Web 画像 2 回分のダウンロードが含まれます。Premium にアップグレードすると、保存回数が無制限になり、広告も表示されません。</p>
+  <h3>Instagram やほかのサイトでも使えますか？</h3>
+  <p>はい。Instagram にログインして画像やリールを保存することも、ほかのサイトの URL を貼り付けて画像をダウンロードすることもできます。</p>
+
+  <div class="cta">
+    <h2>見つけて、保存。かんたんに。</h2>
+    <p>ImageGet を無料でダウンロードして、画像とリールをワンタップで保存。</p>
+    <a href="https://apps.apple.com/us/app/imageget-downloader-from-web/id878190312" target="_blank" rel="noopener" class="btn">ImageGetをダウンロード</a>
+  </div>
+
+  <h2>関連ガイド</h2>
+  <ul style="list-style:none;padding:0;margin:0 0 8px;">
+    <li style="margin:6px 0;"><a href="save-news-gallery-images.html" style="color:var(--indigo);font-weight:600;">ニュース写真・掲示板の画像を保存する方法</a></li>
+    <li style="margin:6px 0;"><a href="download-manga-comic-images.html" style="color:var(--indigo);font-weight:600;">マンガ・コミックの画像をダウンロードする方法</a></li>
+    <li style="margin:6px 0;"><a href="save-instagram-photos.html" style="color:var(--indigo);font-weight:600;">Instagram の写真・リール・動画を保存する方法</a></li>
+    <li style="margin:6px 0;"><a href="../supported-sites.html" style="color:var(--indigo);font-weight:600;">対応サイトをすべて見る</a></li>
+  </ul>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-col">
+        <a href="../index.html" class="brand" style="font-size:16px;">
+          <img class="logo" src="../../images/imageget.png" alt="ImageGet ロゴ" />
+          ImageGet
+        </a>
+        <p style="color:var(--muted);font-size:14px;margin-top:12px;max-width:260px;">見つけて、保存。かんたんに。Webのためのオールインワン画像保存アプリ。</p>
+      </div>
+      <div class="foot-col">
+        <h4>製品</h4>
+        <a href="../index.html#features">機能</a>
+        <a href="../index.html#how">使い方</a>
+        <a href="../index.html#pricing">プレミアム</a>
+        <a href="../supported-sites.html">対応サイト</a>
+        <a href="../blog.html">ブログ</a>
+      </div>
+      <div class="foot-col">
+        <h4>サポート</h4>
+        <a href="../index.html#faq">FAQ</a>
+        <a href="../contact.html">お問い合わせ</a>
+        <a href="../support.html">サポート</a>
+      </div>
+      <div class="foot-col">
+        <h4>法的情報</h4>
+        <a href="../privacy.html">プライバシーポリシー</a>
+        <a href="../terms.html">利用規約</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 ImageGet. All rights reserved.</span>
+      <span>ImageGet - Downloader From Web</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
