@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="canonical" href="https://imageget.rayyao.com/es/blog/getting-started.html" />
+<meta property="og:site_name" content="ImageGet" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://imageget.rayyao.com/es/blog/getting-started.html" />
+<meta property="og:title" content="Cómo empezar con ImageGet en 5 minutos — ImageGet" />
+<meta property="og:description" content="¿Acabas de instalar ImageGet? Esta guía rápida te lleva en unos cinco minutos desde la descarga hasta tu primer lote guardado." />
+<meta property="og:image" content="https://imageget.rayyao.com/images/og-getting-started.jpg" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="ImageGet — guarda fotos y vídeos de la web en un toque" />
+<meta property="og:locale" content="es_ES" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Cómo empezar con ImageGet en 5 minutos — ImageGet" />
+<meta name="twitter:description" content="¿Acabas de instalar ImageGet? Esta guía rápida te lleva en unos cinco minutos desde la descarga hasta tu primer lote guardado." />
+<meta name="twitter:image" content="https://imageget.rayyao.com/images/og-getting-started.jpg" />
+<title>Cómo empezar con ImageGet en 5 minutos — ImageGet</title>
+<meta name="description" content="¿Acabas de instalar ImageGet? Esta guía rápida te lleva en unos cinco minutos desde la descarga hasta tu primer lote guardado." />
+<link rel="icon" type="image/png" href="../../images/imageget.png" />
+<meta name="google-site-verification" content="fKMPGIHzQejo5i1IyGI4EdbKFSJUtiFocqQJe095gkk" />
+<link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/blog/getting-started.html" />
+<link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/blog/getting-started.html" />
+<link rel="alternate" hreflang="fr" href="https://imageget.rayyao.com/fr/blog/getting-started.html" />
+<link rel="alternate" hreflang="it" href="https://imageget.rayyao.com/it/blog/getting-started.html" />
+<link rel="alternate" hreflang="ja" href="https://imageget.rayyao.com/ja/blog/getting-started.html" />
+<link rel="alternate" hreflang="es" href="https://imageget.rayyao.com/es/blog/getting-started.html" />
+<link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/blog/getting-started.html" />
+<style>
+  :root { --ink:#1d1d1f; --muted:#6e6e73; --line:rgba(0,0,0,.08); --indigo:#4f46e5; --grad:linear-gradient(135deg,#6366f1 0%,#8b5cf6 45%,#d946ef 100%); --bg-soft:#f5f5f7; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,Helvetica,Arial,sans-serif; color:var(--ink); line-height:1.7; -webkit-font-smoothing:antialiased; }
+  a { color:inherit; text-decoration:none; }
+  img { display:block; }
+  .wrap { width:100%; max-width:1120px; margin:0 auto; padding:0 24px; }
+  nav { position:sticky; top:0; z-index:50; background:rgba(255,255,255,.72); -webkit-backdrop-filter:saturate(180%) blur(20px); backdrop-filter:saturate(180%) blur(20px); border-bottom:1px solid var(--line); }
+  .nav-inner { display:flex; align-items:center; justify-content:space-between; height:64px; }
+  .brand { display:flex; align-items:center; gap:10px; font-weight:700; font-size:18px; letter-spacing:-.01em; }
+  .brand .logo { width:34px; height:34px; border-radius:9px; flex:none; object-fit:cover; box-shadow:0 2px 10px rgba(0,0,0,.16); }
+  .nav-links { display:flex; align-items:center; gap:28px; font-size:14px; font-weight:500; color:#424245; }
+  .nav-links a { transition:color .2s; }
+  .nav-links a:hover { color:var(--indigo); }
+  .lang { display:flex; align-items:center; gap:4px; font-size:13px; font-weight:600; }
+  .lang a { color:var(--muted); padding:4px 7px; border-radius:6px; }
+  .lang a.active { color:var(--ink); background:#e9e9ee; }
+  .lang a:hover { color:var(--indigo); }
+  .btn { display:inline-flex; align-items:center; justify-content:center; gap:8px; font-weight:600; border-radius:999px; cursor:pointer; transition:transform .15s ease, box-shadow .2s ease; border:none; font-family:inherit; }
+  .btn-sm { padding:9px 18px; font-size:14px; }
+  .btn-primary { background:var(--ink); color:#fff; }
+  main { max-width:760px; margin:0 auto; padding:64px 24px 96px; }
+  .back { display:inline-block; font-size:14px; font-weight:600; color:var(--muted); margin-bottom:28px; }
+  .back:hover { color:var(--indigo); }
+  h1 { font-size:clamp(30px,5vw,42px); font-weight:800; letter-spacing:-.02em; line-height:1.15; }
+  .meta { color:var(--muted); font-size:14px; margin:12px 0 32px; }
+  h2 { font-size:22px; font-weight:700; letter-spacing:-.01em; margin:36px 0 12px; }
+  p { color:#3c3c43; margin-bottom:16px; }
+  ol, ul { padding-left:24px; margin:0 0 16px; color:#3c3c43; }
+  li { margin-bottom:8px; }
+  .cta { background:var(--grad); border-radius:20px; padding:36px 28px; margin:32px 0; text-align:center; color:#fff; }
+  .cta h2 { font-size:24px; font-weight:800; letter-spacing:-.02em; margin-bottom:10px; color:#fff; }
+  .cta p { color:rgba(255,255,255,.92); font-size:16px; margin:0 auto 20px; max-width:460px; }
+  .cta .btn { background:#fff; color:#111; padding:12px 26px; font-size:15px; }
+  footer { border-top:1px solid var(--line); padding:56px 0 40px; background:var(--bg-soft); }
+  .foot-grid { display:flex; justify-content:space-between; gap:32px; flex-wrap:wrap; }
+  .foot-col h4 { font-size:13px; font-weight:700; text-transform:uppercase; letter-spacing:.1em; color:var(--muted); margin-bottom:14px; }
+  .foot-col a { display:block; color:#424245; font-size:14px; padding:5px 0; }
+  .foot-col a:hover { color:var(--indigo); }
+  .foot-bottom { margin-top:40px; padding-top:24px; border-top:1px solid var(--line); display:flex; justify-content:space-between; gap:16px; flex-wrap:wrap; color:var(--muted); font-size:13px; }
+  @media (max-width:960px) { .nav-links { display:none; } }
+</style>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6EVZZKY1KC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-6EVZZKY1KC');
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://imageget.rayyao.com/es/blog/getting-started.html"
+  },
+  "headline": "Cómo empezar con ImageGet en 5 minutos",
+  "description": "¿Acabas de instalar ImageGet? Esta guía rápida te lleva en unos cinco minutos desde la descarga hasta tu primer lote guardado.",
+  "image": "https://imageget.rayyao.com/images/imageget-main.png",
+  "datePublished": "2026-08-28",
+  "dateModified": "2026-08-28",
+  "inLanguage": "es",
+  "author": {
+    "@type": "Organization",
+    "name": "Equipo de ImageGet",
+    "url": "https://x.com/elaine20230910"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "ImageGet",
+    "url": "https://imageget.rayyao.com/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://imageget.rayyao.com/images/imageget.png"
+    }
+  }
+}
+</script>
+</head>
+<body>
+
+<nav>
+  <div class="wrap nav-inner">
+    <a href="../index.html" class="brand">
+      <img class="logo" src="../../images/imageget.png" alt="Logotipo de ImageGet" />
+      ImageGet
+    </a>
+    <div class="nav-links">
+      <a href="../index.html#features">Funciones</a>
+      <a href="../index.html#how">Cómo funciona</a>
+      <a href="../index.html#pricing">Premium</a>
+      <a href="../index.html#faq">FAQ</a>
+      <a href="../blog.html">Blog</a>
+    </div>
+    <div class="lang">
+      <a href="../../blog/getting-started.html">EN</a>
+      <a href="../../de/blog/getting-started.html">DE</a>
+      <a href="../../fr/blog/getting-started.html">FR</a>
+      <a href="../../it/blog/getting-started.html">IT</a>
+      <a href="../../ja/blog/getting-started.html">JA</a>
+      <a href="getting-started.html" class="active">ES</a>
+    </div>
+    <a href="https://apps.apple.com/us/app/imageget-downloader-from-web/id878190312" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Descargar</a>
+  </div>
+</nav>
+
+<main>
+  <a class="back" href="../blog.html">← Todas las entradas</a>
+  <h1>Cómo empezar con ImageGet en 5 minutos</h1>
+  <p class="meta">28 de agosto de 2026 · <a href="https://x.com/elaine20230910" target="_blank" rel="noopener">Equipo de ImageGet</a></p>
+
+  <p>¿Acabas de instalar ImageGet? Esta guía rápida te lleva en unos cinco minutos desde la descarga hasta tu primer lote guardado.</p>
+
+  <div class="cta">
+    <p>Descarga ImageGet gratis: guarda imágenes y reels en un toque.</p>
+    <a href="https://apps.apple.com/us/app/imageget-downloader-from-web/id878190312" target="_blank" rel="noopener" class="btn">Descargar ImageGet</a>
+  </div>
+
+  <h2>¿Qué es ImageGet?</h2>
+  <p>ImageGet es un guardador de fotos todo en uno para la web. Inicia sesión en Instagram para guardar imágenes y reels mientras navegas, o introduce una URL para reunir todas las imágenes de la página: después revísalas, fíltralas y guárdalas directamente en tu fototeca.</p>
+
+  <h2>Paso 1: Descarga la app</h2>
+  <p>Consigue ImageGet en el App Store. La descarga es gratuita y el plan gratuito incluye <strong>3 descargas para Instagram, 2 para imágenes de la web y 3 descargas de vídeo (YouTube Shorts, X y Facebook Reels)</strong>. Si te convence, pásate a Premium para guardar sin límites y sin anuncios.</p>
+
+  <h2>Paso 2: Guarda tu primer lote</h2>
+  <ol>
+    <li>Inicia sesión en Instagram o copia la URL de cualquier página con imágenes que quieras guardar.</li>
+    <li>Abre ImageGet y pega el enlace.</li>
+    <li>Pulsa <em>Go</em> y míralo reunir todas las imágenes de la página.</li>
+    <li>Revisa la cuadrícula y pulsa <em>Save All</em>.</li>
+  </ol>
+
+  <img src="../../images/imageget-main.png" alt="App ImageGet en el iPhone" loading="lazy" style="width:100%;max-width:340px;margin:28px auto 12px;display:block;border-radius:20px;border:2px solid rgba(0,0,0,.14);box-shadow:0 12px 30px rgba(0,0,0,.14);" />
+
+  <h2>Paso 3: Descubre las funciones clave</h2>
+  <ul>
+    <li><strong>Instagram y Reels</strong> — inicia sesión y guarda imágenes y vídeos con un toque.</li>
+    <li><strong>Descarga por lotes en un toque</strong> — guarda todas las imágenes de una página a la vez.</li>
+    <li><strong>Filtrado inteligente</strong> — quédate solo con las imágenes grandes y omite iconos diminutos y miniaturas.</li>
+    <li><strong>Funciona en segundo plano</strong> — pon varias páginas en cola mientras sigues navegando.</li>
+    <li><strong>Vista previa a pantalla completa</strong> — amplía y desliza para revisar las imágenes de cerca.</li>
+    <li><strong>Navegador integrado</strong> — navega dentro de la propia app, con marcadores.</li>
+  </ul>
+
+  <img src="../../images/iphone-5.webp" alt="App ImageGet en el iPhone" loading="lazy" style="width:100%;max-width:340px;margin:28px auto 12px;display:block;border-radius:20px;border:2px solid rgba(0,0,0,.14);box-shadow:0 12px 30px rgba(0,0,0,.14);" />
+
+  <h2>Un consejo rápido</h2>
+  <p>Usa el navegador integrado para visitar tus sitios favoritos y guardar imágenes sin salir de la app. Marca los sitios que más usas y los tendrás siempre a un toque.</p>
+
+  <div class="cta">
+    <h2>Verlo. Guardarlo. Sencillo.</h2>
+    <p>Descarga ImageGet gratis y guarda imágenes y reels con un toque.</p>
+    <a href="https://apps.apple.com/us/app/imageget-downloader-from-web/id878190312" target="_blank" rel="noopener" class="btn">Descargar ImageGet</a>
+  </div>
+
+  <h2>Guías relacionadas</h2>
+  <ul style="list-style:none;padding:0;margin:0 0 8px;">
+    <li style="margin:6px 0;"><a href="../../blog/batch-download-images.html" style="color:var(--indigo);font-weight:600;">Cómo descargar imágenes de la web por lotes en un toque</a></li>
+    <li style="margin:6px 0;"><a href="../../blog/save-instagram-photos.html" style="color:var(--indigo);font-weight:600;">Cómo guardar fotos, reels y vídeos de Instagram</a></li>
+    <li style="margin:6px 0;"><a href="../../blog/download-youtube-shorts.html" style="color:var(--indigo);font-weight:600;">Cómo descargar YouTube Shorts</a></li>
+    <li style="margin:6px 0;"><a href="../supported-sites.html" style="color:var(--indigo);font-weight:600;">Ver todos los sitios compatibles</a></li>
+  </ul>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-col">
+        <a href="../index.html" class="brand" style="font-size:16px;">
+          <img class="logo" src="../../images/imageget.png" alt="Logotipo de ImageGet" />
+          ImageGet
+        </a>
+        <p style="color:var(--muted);font-size:14px;margin-top:12px;max-width:260px;">Verlo. Guardarlo. Sencillo. El guardador de fotos todo en uno para la web.</p>
+      </div>
+      <div class="foot-col">
+        <h4>Producto</h4>
+        <a href="../index.html#features">Funciones</a>
+        <a href="../index.html#how">Cómo funciona</a>
+        <a href="../index.html#pricing">Premium</a>
+        <a href="../supported-sites.html">Sitios compatibles</a>
+        <a href="../blog.html">Blog</a>
+      </div>
+      <div class="foot-col">
+        <h4>Soporte</h4>
+        <a href="../index.html#faq">FAQ</a>
+        <a href="../contact.html">Contacto</a>
+        <a href="../support.html">Soporte</a>
+      </div>
+      <div class="foot-col">
+        <h4>Legal</h4>
+        <a href="../privacy.html">Política de privacidad</a>
+        <a href="../terms.html">Condiciones del servicio</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 ImageGet. Todos los derechos reservados.</span>
+      <span>ImageGet - Downloader From Web</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -34,7 +34,7 @@ ImageGet - Downloader From Web is available on the App Store (App Store ID 87819
 - French: https://imageget.rayyao.com/fr/
 - Italian: https://imageget.rayyao.com/it/
 - Japanese: https://imageget.rayyao.com/ja/
-- Spanish: https://imageget.rayyao.com/es/ (homepage only; other Spanish pages not published yet)
+- Spanish: https://imageget.rayyao.com/es/
 
 All twelve guides are published in English, German, French, Italian and Japanese.
 
@@ -42,6 +42,8 @@ All twelve guides are published in English, German, French, Italian and Japanese
 - [French guides](https://imageget.rayyao.com/fr/blog.html)
 - [Italian guides](https://imageget.rayyao.com/it/blog.html)
 - [Japanese guides](https://imageget.rayyao.com/ja/blog.html)
+
+Spanish is being rolled out: the homepage, supported sites, support, contact and legal pages are translated, and one guide is available so far — [Cómo empezar con ImageGet en 5 minutos](https://imageget.rayyao.com/es/blog/getting-started.html).
 
 ## Support and legal
 
