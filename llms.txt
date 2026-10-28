@@ -43,7 +43,7 @@ All twelve guides are published in English, German, French, Italian and Japanese
 - [Italian guides](https://imageget.rayyao.com/it/blog.html)
 - [Japanese guides](https://imageget.rayyao.com/ja/blog.html)
 
-Spanish is being rolled out: the homepage, supported sites, support, contact and legal pages are translated, and one guide is available so far — [Cómo empezar con ImageGet en 5 minutos](https://imageget.rayyao.com/es/blog/getting-started.html).
+Spanish is being rolled out: the homepage, supported sites, support, contact and legal pages are translated, and two guides are available so far — [Cómo empezar con ImageGet en 5 minutos](https://imageget.rayyao.com/es/blog/getting-started.html) and [Cómo guardar fotos, reels y vídeos de Instagram](https://imageget.rayyao.com/es/blog/save-instagram-photos.html).
 
 ## Support and legal
 
