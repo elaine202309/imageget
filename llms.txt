@@ -35,6 +35,7 @@ ImageGet - Downloader From Web is available on the App Store (App Store ID 87819
 - Italian: https://imageget.rayyao.com/it/
 - Japanese: https://imageget.rayyao.com/ja/
 - Spanish: https://imageget.rayyao.com/es/
+- Portuguese (Brazil): https://imageget.rayyao.com/pt/
 
 All twelve guides are published in English, German, French, Italian and Japanese.
 
@@ -44,6 +45,8 @@ All twelve guides are published in English, German, French, Italian and Japanese
 - [Japanese guides](https://imageget.rayyao.com/ja/blog.html)
 
 Spanish is being rolled out: the homepage, supported sites, support, contact and legal pages are translated, and two guides are available so far — [Cómo empezar con ImageGet en 5 minutos](https://imageget.rayyao.com/es/blog/getting-started.html) and [Cómo guardar fotos, reels y vídeos de Instagram](https://imageget.rayyao.com/es/blog/save-instagram-photos.html).
+
+Portuguese (Brazil) is starting with the homepage only; every other page is still English.
 
 ## Support and legal
 
