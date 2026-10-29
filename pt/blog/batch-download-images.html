@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="canonical" href="https://imageget.rayyao.com/pt/blog/batch-download-images.html" />
+<meta property="og:site_name" content="ImageGet" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://imageget.rayyao.com/pt/blog/batch-download-images.html" />
+<meta property="og:title" content="Como baixar todas as imagens de uma página em um toque — ImageGet" />
+<meta property="og:description" content="Aprenda a baixar imagens da web em lote com o ImageGet. Cole qualquer URL e salve todas as imagens da página em um toque, sem clicar com o botão direito nem tirar prints." />
+<meta property="og:image" content="https://imageget.rayyao.com/images/og-batch-download-images.jpg" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="ImageGet — salve fotos e vídeos da web em um toque" />
+<meta property="og:locale" content="pt_BR" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Como baixar todas as imagens de uma página em um toque — ImageGet" />
+<meta name="twitter:description" content="Aprenda a baixar imagens da web em lote com o ImageGet. Cole qualquer URL e salve todas as imagens da página em um toque, sem clicar com o botão direito nem tirar prints." />
+<meta name="twitter:image" content="https://imageget.rayyao.com/images/og-batch-download-images.jpg" />
+<title>Como baixar todas as imagens de uma página em um toque — ImageGet</title>
+<meta name="description" content="Aprenda a baixar imagens da web em lote com o ImageGet. Cole qualquer URL e salve todas as imagens da página em um toque, sem clicar com o botão direito nem tirar prints." />
+<link rel="icon" type="image/png" href="../../images/imageget.png" />
+<meta name="google-site-verification" content="fKMPGIHzQejo5i1IyGI4EdbKFSJUtiFocqQJe095gkk" />
+<link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/blog/batch-download-images.html" />
+<link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/blog/batch-download-images.html" />
+<link rel="alternate" hreflang="fr" href="https://imageget.rayyao.com/fr/blog/batch-download-images.html" />
+<link rel="alternate" hreflang="it" href="https://imageget.rayyao.com/it/blog/batch-download-images.html" />
+<link rel="alternate" hreflang="ja" href="https://imageget.rayyao.com/ja/blog/batch-download-images.html" />
+<link rel="alternate" hreflang="es" href="https://imageget.rayyao.com/es/blog/batch-download-images.html" />
+<link rel="alternate" hreflang="pt-BR" href="https://imageget.rayyao.com/pt/blog/batch-download-images.html" />
+<link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/blog/batch-download-images.html" />
+<style>
+  :root { --ink:#1d1d1f; --muted:#6e6e73; --line:rgba(0,0,0,.08); --indigo:#4f46e5; --grad:linear-gradient(135deg,#6366f1 0%,#8b5cf6 45%,#d946ef 100%); --bg-soft:#f5f5f7; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,Helvetica,Arial,sans-serif; color:var(--ink); line-height:1.7; -webkit-font-smoothing:antialiased; }
+  a { color:inherit; text-decoration:none; }
+  img { display:block; }
+  .wrap { width:100%; max-width:1120px; margin:0 auto; padding:0 24px; }
+  nav { position:sticky; top:0; z-index:50; background:rgba(255,255,255,.72); -webkit-backdrop-filter:saturate(180%) blur(20px); backdrop-filter:saturate(180%) blur(20px); border-bottom:1px solid var(--line); }
+  .nav-inner { display:flex; align-items:center; justify-content:space-between; height:64px; }
+  .brand { display:flex; align-items:center; gap:10px; font-weight:700; font-size:18px; letter-spacing:-.01em; }
+  .brand .logo { width:34px; height:34px; border-radius:9px; flex:none; object-fit:cover; box-shadow:0 2px 10px rgba(0,0,0,.16); }
+  .nav-links { display:flex; align-items:center; gap:28px; font-size:14px; font-weight:500; color:#424245; }
+  .nav-links a { transition:color .2s; }
+  .nav-links a:hover { color:var(--indigo); }
+  .lang { display:flex; align-items:center; gap:4px; font-size:13px; font-weight:600; }
+  .lang a { color:var(--muted); padding:4px 7px; border-radius:6px; }
+  .lang a.active { color:var(--ink); background:#e9e9ee; }
+  .lang a:hover { color:var(--indigo); }
+  .btn { display:inline-flex; align-items:center; justify-content:center; gap:8px; font-weight:600; border-radius:999px; cursor:pointer; transition:transform .15s ease, box-shadow .2s ease; border:none; font-family:inherit; }
+  .btn-sm { padding:9px 18px; font-size:14px; }
+  .btn-primary { background:var(--ink); color:#fff; }
+  main { max-width:760px; margin:0 auto; padding:64px 24px 96px; }
+  .back { display:inline-block; font-size:14px; font-weight:600; color:var(--muted); margin-bottom:28px; }
+  .back:hover { color:var(--indigo); }
+  h1 { font-size:clamp(30px,5vw,42px); font-weight:800; letter-spacing:-.02em; line-height:1.15; }
+  .meta { color:var(--muted); font-size:14px; margin:12px 0 32px; }
+  h2 { font-size:22px; font-weight:700; letter-spacing:-.01em; margin:36px 0 12px; }
+  h3 { font-size:17px; font-weight:700; letter-spacing:-.01em; margin:24px 0 8px; }
+  p { color:#3c3c43; margin-bottom:16px; }
+  ol, ul { padding-left:24px; margin:0 0 16px; color:#3c3c43; }
+  li { margin-bottom:8px; }
+  .cta { background:var(--grad); border-radius:20px; padding:36px 28px; margin:32px 0; text-align:center; color:#fff; }
+  .cta h2 { font-size:24px; font-weight:800; letter-spacing:-.02em; margin-bottom:10px; color:#fff; }
+  .cta p { color:rgba(255,255,255,.92); font-size:16px; margin:0 auto 20px; max-width:460px; }
+  .cta .btn { background:#fff; color:#111; padding:12px 26px; font-size:15px; }
+  footer { border-top:1px solid var(--line); padding:56px 0 40px; background:var(--bg-soft); }
+  .foot-grid { display:flex; justify-content:space-between; gap:32px; flex-wrap:wrap; }
+  .foot-col h4 { font-size:13px; font-weight:700; text-transform:uppercase; letter-spacing:.1em; color:var(--muted); margin-bottom:14px; }
+  .foot-col a { display:block; color:#424245; font-size:14px; padding:5px 0; }
+  .foot-col a:hover { color:var(--indigo); }
+  .foot-bottom { margin-top:40px; padding-top:24px; border-top:1px solid var(--line); display:flex; justify-content:space-between; gap:16px; flex-wrap:wrap; color:var(--muted); font-size:13px; }
+  @media (max-width:960px) { .nav-links { display:none; } }
+  @media (max-width: 520px) {
+    .nav-inner { gap: 10px; }
+    .brand { font-size: 16px; gap: 8px; }
+    .brand .logo { width: 30px; height: 30px; }
+    .lang { gap: 0; font-size: 12px; }
+    .lang a { padding: 4px 5px; }
+  }
+  @media (max-width: 470px) {
+    .nav-inner > .btn-sm { display: none; }
+  }
+</style>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6EVZZKY1KC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-6EVZZKY1KC');
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Como baixar todas as imagens de uma página web de uma vez?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Cole uma URL no ImageGet, toque em Go, revise a grade e toque em Save All. Todas as imagens da página são salvas na sua galeria de uma vez."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Posso baixar imagens em lote de graça?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim — o plano gratuito inclui 2 downloads de imagens da web. Passe para o Premium para salvar sem limites e sem anúncios."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Funciona com o Instagram e outros sites?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim. Entre no Instagram para salvar imagens e reels, ou cole uma URL de qualquer outro site para baixar as imagens dele."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://imageget.rayyao.com/pt/blog/batch-download-images.html"
+  },
+  "headline": "Como baixar todas as imagens de uma página em um toque",
+  "description": "Aprenda a baixar imagens da web em lote com o ImageGet. Cole qualquer URL e salve todas as imagens da página em um toque, sem clicar com o botão direito nem tirar prints.",
+  "image": "https://imageget.rayyao.com/images/iphone-2.webp",
+  "datePublished": "2026-08-26",
+  "dateModified": "2026-08-26",
+  "inLanguage": "pt-BR",
+  "author": {
+    "@type": "Organization",
+    "name": "Equipe do ImageGet",
+    "url": "https://x.com/elaine20230910"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "ImageGet",
+    "url": "https://imageget.rayyao.com/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://imageget.rayyao.com/images/imageget.png"
+    }
+  }
+}
+</script>
+</head>
+<body>
+
+<nav>
+  <div class="wrap nav-inner">
+    <a href="../index.html" class="brand">
+      <img class="logo" src="../../images/imageget.png" alt="Logotipo do ImageGet" />
+      ImageGet
+    </a>
+    <div class="nav-links">
+      <a href="../index.html#features">Recursos</a>
+      <a href="../index.html#how">Como funciona</a>
+      <a href="../index.html#pricing">Premium</a>
+      <a href="../index.html#faq">FAQ</a>
+      <a href="../blog.html">Blog</a>
+    </div>
+    <div class="lang">
+      <a href="../../blog/batch-download-images.html">EN</a>
+      <a href="../../de/blog/batch-download-images.html">DE</a>
+      <a href="../../fr/blog/batch-download-images.html">FR</a>
+      <a href="../../it/blog/batch-download-images.html">IT</a>
+      <a href="../../ja/blog/batch-download-images.html">JA</a>
+      <a href="../../es/blog/batch-download-images.html">ES</a>
+      <a href="batch-download-images.html" class="active">PT</a>
+    </div>
+    <a href="https://apps.apple.com/us/app/imageget-downloader-from-web/id878190312" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Baixar</a>
+  </div>
+</nav>
+
+<main>
+  <a class="back" href="../blog.html">← Todas as publicações</a>
+  <h1>Como baixar todas as imagens de uma página em um toque</h1>
+  <p class="meta">26 de agosto de 2026 · <a href="https://x.com/elaine20230910" target="_blank" rel="noopener">Equipe do ImageGet</a></p>
+
+  <p>Baixar imagens da web costumava significar clicar com o botão direito em cada uma — ou pior, tirar prints. O ImageGet muda isso: cole qualquer URL e capture todas as imagens da página com um único toque. Entre no Instagram para salvar imagens e reels enquanto navega, ou baixe de qualquer outro site que você goste.</p>
+
+  <div class="cta">
+    <p>Baixe o ImageGet grátis: salve todas as imagens e reels de uma página em um toque.</p>
+    <a href="https://apps.apple.com/us/app/imageget-downloader-from-web/id878190312" target="_blank" rel="noopener" class="btn">Baixar o ImageGet</a>
+  </div>
+
+  <h2>Por que baixar em lote é melhor do que salvar uma a uma</h2>
+  <p>Quando uma página tem uma dúzia de imagens, salvá-las uma a uma é lento e sujeito a erros. Você acaba esquecendo algumas ou pegando sem querer miniaturas de baixa qualidade. O download em lote faz o trabalho pesado por você: uma única ação reúne tudo e depois você decide o que guardar.</p>
+
+  <h2>Como funciona em quatro passos</h2>
+  <ol>
+    <li><strong>Entre ou copie uma URL.</strong> Entre na sua conta do Instagram, ou abra qualquer página (uma galeria de fotos, um tópico de fórum, uma notícia) e copie o link.</li>
+    <li><strong>Cole no ImageGet.</strong> Abra o app, cole o link e toque em <em>Go</em>. O ImageGet analisa a página e reúne todas as imagens e reels dela.</li>
+  </ol>
+
+  <img src="../../images/iphone-2.webp" alt="Baixar imagens da web em lote: cole um link no ImageGet" loading="lazy" style="width:100%;max-width:340px;margin:24px auto 8px;display:block;border-radius:20px;border:2px solid rgba(0,0,0,.14);box-shadow:0 12px 30px rgba(0,0,0,.14);" />
+
+  <ol start="3">
+    <li><strong>Revise as imagens.</strong> Todas aparecem em uma grade limpa. Toque em qualquer uma para ver em tela cheia e aproxime com os dedos antes de decidir.</li>
+    <li><strong>Salve tudo.</strong> Toque em <em>Save All</em> para enviar o lote inteiro para a sua galeria de uma vez.</li>
+  </ol>
+
+  <img src="../../images/iphone-5.webp" alt="Baixar imagens em lote: salvas na sua galeria" loading="lazy" style="width:100%;max-width:340px;margin:24px auto 8px;display:block;border-radius:20px;border:2px solid rgba(0,0,0,.14);box-shadow:0 12px 30px rgba(0,0,0,.14);" />
+
+  <h2>Dica: descarte o que é pequeno</h2>
+  <p>Nem toda imagem de uma página vale a pena. Ícones, avatares e miniaturas minúsculas só poluem a sua galeria. Ative o <strong>Smart Filtering</strong> e defina um tamanho mínimo — o ImageGet ignora automaticamente o que é pequeno e mantém só as imagens maiores que você realmente quer.</p>
+
+  <img src="../../images/iphone-4.webp" alt="Baixar imagens em lote: ignore os ícones pequenos" loading="lazy" style="width:100%;max-width:340px;margin:24px auto 8px;display:block;border-radius:20px;border:2px solid rgba(0,0,0,.14);box-shadow:0 12px 30px rgba(0,0,0,.14);" />
+
+  <h2>Dica: coloque várias páginas na fila</h2>
+  <p>Tem várias páginas para dar conta? Coloque-as na fila e deixe o ImageGet trabalhar em segundo plano enquanto você continua navegando. Não precisa esperar — suas imagens ficam prontas quando você estiver.</p>
+
+  <h2>FAQ</h2>
+  <h3>Como baixar todas as imagens de uma página web de uma vez?</h3>
+  <p>Cole uma URL no ImageGet, toque em <em>Go</em>, revise a grade e toque em <em>Save All</em>. Todas as imagens da página são salvas na sua galeria de uma vez.</p>
+  <h3>Posso baixar imagens em lote de graça?</h3>
+  <p>Sim — o plano gratuito inclui 2 downloads de imagens da web. Passe para o Premium para salvar sem limites e sem anúncios.</p>
+  <h3>Funciona com o Instagram e outros sites?</h3>
+  <p>Sim. Entre no Instagram para salvar imagens e reels, ou cole uma URL de qualquer outro site para baixar as imagens dele.</p>
+
+  <div class="cta">
+    <h2>Veja. Salve. Simples.</h2>
+    <p>Baixe o ImageGet grátis e salve imagens e reels com um toque.</p>
+    <a href="https://apps.apple.com/us/app/imageget-downloader-from-web/id878190312" target="_blank" rel="noopener" class="btn">Baixar o ImageGet</a>
+  </div>
+
+  <h2>Guias relacionados</h2>
+  <ul style="list-style:none;padding:0;margin:0 0 8px;">
+    <li style="margin:6px 0;"><a href="../../blog/save-news-gallery-images.html" style="color:var(--indigo);font-weight:600;">Como baixar imagens de galerias de notícias e fóruns de fotografia</a></li>
+    <li style="margin:6px 0;"><a href="../../blog/download-manga-comic-images.html" style="color:var(--indigo);font-weight:600;">Como baixar imagens de mangá e quadrinhos em sites de quadrinhos</a></li>
+    <li style="margin:6px 0;"><a href="../../blog/save-instagram-photos.html" style="color:var(--indigo);font-weight:600;">Como salvar fotos, reels e vídeos do Instagram</a></li>
+    <li style="margin:6px 0;"><a href="../../supported-sites.html" style="color:var(--indigo);font-weight:600;">Ver todos os sites compatíveis</a></li>
+  </ul>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-col">
+        <a href="../index.html" class="brand" style="font-size:16px;">
+          <img class="logo" src="../../images/imageget.png" alt="Logotipo do ImageGet" />
+          ImageGet
+        </a>
+        <p style="color:var(--muted);font-size:14px;margin-top:12px;max-width:260px;">Veja. Salve. Simples. O salvador de fotos tudo-em-um para a web.</p>
+      </div>
+      <div class="foot-col">
+        <h4>Produto</h4>
+        <a href="../index.html#features">Recursos</a>
+        <a href="../index.html#how">Como funciona</a>
+        <a href="../index.html#pricing">Premium</a>
+        <a href="../../supported-sites.html">Sites compatíveis</a>
+        <a href="../blog.html">Blog</a>
+      </div>
+      <div class="foot-col">
+        <h4>Suporte</h4>
+        <a href="../index.html#faq">FAQ</a>
+        <a href="../../contact.html">Fale conosco</a>
+        <a href="../../support.html">Suporte</a>
+      </div>
+      <div class="foot-col">
+        <h4>Legal</h4>
+        <a href="../../privacy.html">Política de Privacidade</a>
+        <a href="../../terms.html">Termos de Serviço</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 ImageGet. Todos os direitos reservados.</span>
+      <span>ImageGet - Downloader From Web</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
