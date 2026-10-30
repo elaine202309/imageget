@@ -44,9 +44,9 @@ All twelve guides are published in English, German, French, Italian and Japanese
 - [Italian guides](https://imageget.rayyao.com/it/blog.html)
 - [Japanese guides](https://imageget.rayyao.com/ja/blog.html)
 
-Spanish is being rolled out: the homepage, supported sites, support, contact and legal pages are translated, and three guides are available so far — [Cómo empezar con ImageGet en 5 minutos](https://imageget.rayyao.com/es/blog/getting-started.html), [Cómo guardar fotos, reels y vídeos de Instagram](https://imageget.rayyao.com/es/blog/save-instagram-photos.html) and [Cómo descargar imágenes de la web por lotes en un toque](https://imageget.rayyao.com/es/blog/batch-download-images.html).
+Spanish is being rolled out: the homepage, supported sites, support, contact and legal pages are translated, and four guides are available so far — [Cómo empezar con ImageGet en 5 minutos](https://imageget.rayyao.com/es/blog/getting-started.html), [Cómo guardar fotos, reels y vídeos de Instagram](https://imageget.rayyao.com/es/blog/save-instagram-photos.html), [Cómo descargar YouTube Shorts](https://imageget.rayyao.com/es/blog/download-youtube-shorts.html) and [Cómo descargar imágenes de la web por lotes en un toque](https://imageget.rayyao.com/es/blog/batch-download-images.html).
 
-Portuguese (Brazil) covers the homepage, the blog index and one guide — [Como baixar todas as imagens de uma página em um toque](https://imageget.rayyao.com/pt/blog/batch-download-images.html).
+Portuguese (Brazil) covers the homepage, the blog index and two guides — [Como salvar fotos, reels e vídeos do Instagram](https://imageget.rayyao.com/pt/blog/save-instagram-photos.html) and [Como baixar todas as imagens de uma página em um toque](https://imageget.rayyao.com/pt/blog/batch-download-images.html).
 
 ## Support and legal
 
