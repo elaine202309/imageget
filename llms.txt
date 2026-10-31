@@ -36,6 +36,7 @@ ImageGet - Downloader From Web is available on the App Store (App Store ID 87819
 - Japanese: https://imageget.rayyao.com/ja/
 - Spanish: https://imageget.rayyao.com/es/
 - Portuguese (Brazil): https://imageget.rayyao.com/pt/
+- Korean: https://imageget.rayyao.com/ko/
 
 All twelve guides are published in English, German, French, Italian and Japanese.
 
@@ -47,6 +48,8 @@ All twelve guides are published in English, German, French, Italian and Japanese
 Spanish is being rolled out: the homepage, supported sites, support, contact and legal pages are translated, and five guides are available so far — [Cómo empezar con ImageGet en 5 minutos](https://imageget.rayyao.com/es/blog/getting-started.html), [Cómo guardar fotos, reels y vídeos de Instagram](https://imageget.rayyao.com/es/blog/save-instagram-photos.html), [Cómo descargar Facebook Reels](https://imageget.rayyao.com/es/blog/download-facebook-reels.html), [Cómo descargar YouTube Shorts](https://imageget.rayyao.com/es/blog/download-youtube-shorts.html) and [Cómo descargar imágenes de la web por lotes en un toque](https://imageget.rayyao.com/es/blog/batch-download-images.html).
 
 Portuguese (Brazil) covers the homepage, the blog index and three guides — [Como salvar fotos, reels e vídeos do Instagram](https://imageget.rayyao.com/pt/blog/save-instagram-photos.html), [Como baixar Facebook Reels](https://imageget.rayyao.com/pt/blog/download-facebook-reels.html) and [Como baixar todas as imagens de uma página em um toque](https://imageget.rayyao.com/pt/blog/batch-download-images.html).
+
+Korean covers the homepage, supported sites, support, contact and legal pages; the blog is still in English.
 
 ## Support and legal
 
