@@ -105,6 +105,14 @@
   .phone-screen { position: relative; width: 100%; height: 100%; border-radius: 38px; background: #fafafa; overflow: hidden; }
   .phone-screen .shot { width: 100%; height: 100%; object-fit: cover; object-position: top; display: block; }
 
+  .float-chip { position: absolute; background: #fff; border-radius: 14px; padding: 10px 14px; box-shadow: var(--shadow-md); font-size: 12px; font-weight: 600; display: flex; align-items: center; gap: 8px; animation: bob 5s ease-in-out infinite; }
+  .float-chip .ic { width: 26px; height: 26px; border-radius: 8px; background: var(--grad-soft); display: grid; place-items: center; color: var(--indigo); }
+  .float-chip .ic svg { width: 14px; height: 14px; }
+  .float-chip small { display: block; font-weight: 400; color: var(--muted); font-size: 10px; }
+  .chip-a { top: 48px; right: -92px; }
+  .chip-b { bottom: 48px; left: -92px; animation-delay: 2.4s; }
+  @keyframes bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+
   .stats { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
   .stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; padding: 40px 0; }
   .stat { text-align: center; }
@@ -176,6 +184,7 @@
     .feat-row.flip .feat-media { order: 0; }
     .steps { grid-template-columns: 1fr; }
     .nav-links { display: none; }
+    .float-chip { display: none; }
   }
   @media (max-width: 520px) {
     .feat-grid { grid-template-columns: 1fr; }
@@ -354,6 +363,15 @@
       <div class="phone">
         <div class="phone-screen">
           <img class="shot" src="../images/hero-art.jpg" alt="ImageGet App-Screenshot" />
+        </div>
+
+        <div class="float-chip chip-a">
+          <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></span>
+          <div>Stapel wird gespeichert…<small>122 von 122 fertig</small></div>
+        </div>
+        <div class="float-chip chip-b">
+          <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg></span>
+          <div>Gefiltert<small>2 kleine Symbole übersprungen</small></div>
         </div>
       </div>
     </div>
