@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="canonical" href="https://imageget.rayyao.com/ko/blog/getting-started.html" />
+<meta property="og:site_name" content="ImageGet" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://imageget.rayyao.com/ko/blog/getting-started.html" />
+<meta property="og:title" content="ImageGet 5분 만에 시작하기 — ImageGet" />
+<meta property="og:description" content="ImageGet이 처음이신가요? 이 빠른 가이드를 따라 하면 다운로드부터 첫 저장까지 약 5분이면 충분합니다." />
+<meta property="og:image" content="https://imageget.rayyao.com/images/og-getting-started.jpg" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="ImageGet — 웹의 사진과 동영상을 한 번의 탭으로 저장합니다" />
+<meta property="og:locale" content="ko_KR" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="ImageGet 5분 만에 시작하기 — ImageGet" />
+<meta name="twitter:description" content="ImageGet이 처음이신가요? 이 빠른 가이드를 따라 하면 다운로드부터 첫 저장까지 약 5분이면 충분합니다." />
+<meta name="twitter:image" content="https://imageget.rayyao.com/images/og-getting-started.jpg" />
+<title>ImageGet 5분 만에 시작하기 — ImageGet</title>
+<meta name="description" content="ImageGet이 처음이신가요? 이 빠른 가이드를 따라 하면 다운로드부터 첫 저장까지 약 5분이면 충분합니다." />
+<link rel="icon" type="image/png" href="../../images/imageget.png" />
+<meta name="google-site-verification" content="fKMPGIHzQejo5i1IyGI4EdbKFSJUtiFocqQJe095gkk" />
+<link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/blog/getting-started.html" />
+<link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/blog/getting-started.html" />
+<link rel="alternate" hreflang="fr" href="https://imageget.rayyao.com/fr/blog/getting-started.html" />
+<link rel="alternate" hreflang="it" href="https://imageget.rayyao.com/it/blog/getting-started.html" />
+<link rel="alternate" hreflang="ja" href="https://imageget.rayyao.com/ja/blog/getting-started.html" />
+<link rel="alternate" hreflang="es" href="https://imageget.rayyao.com/es/blog/getting-started.html" />
+<link rel="alternate" hreflang="ko" href="https://imageget.rayyao.com/ko/blog/getting-started.html" />
+<link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/blog/getting-started.html" />
+<style>
+  :root { --ink:#1d1d1f; --muted:#6e6e73; --line:rgba(0,0,0,.08); --indigo:#4f46e5; --grad:linear-gradient(135deg,#6366f1 0%,#8b5cf6 45%,#d946ef 100%); --bg-soft:#f5f5f7; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,Helvetica,Arial,sans-serif; color:var(--ink); line-height:1.7; -webkit-font-smoothing:antialiased; }
+  a { color:inherit; text-decoration:none; }
+  img { display:block; }
+  .wrap { width:100%; max-width:1120px; margin:0 auto; padding:0 24px; }
+  nav { position:sticky; top:0; z-index:50; background:rgba(255,255,255,.72); -webkit-backdrop-filter:saturate(180%) blur(20px); backdrop-filter:saturate(180%) blur(20px); border-bottom:1px solid var(--line); }
+  .nav-inner { display:flex; align-items:center; justify-content:space-between; height:64px; }
+  .brand { display:flex; align-items:center; gap:10px; font-weight:700; font-size:18px; letter-spacing:-.01em; }
+  .brand .logo { width:34px; height:34px; border-radius:9px; flex:none; object-fit:cover; box-shadow:0 2px 10px rgba(0,0,0,.16); }
+  .nav-links { display:flex; align-items:center; gap:28px; font-size:14px; font-weight:500; color:#424245; }
+  .nav-links a { transition:color .2s; }
+  .nav-links a:hover { color:var(--indigo); }
+  .lang { display:flex; align-items:center; gap:4px; font-size:13px; font-weight:600; }
+  .lang a { color:var(--muted); padding:4px 7px; border-radius:6px; }
+  .lang a.active { color:var(--ink); background:#e9e9ee; }
+  .lang a:hover { color:var(--indigo); }
+  .btn { display:inline-flex; align-items:center; justify-content:center; gap:8px; font-weight:600; border-radius:999px; cursor:pointer; transition:transform .15s ease, box-shadow .2s ease; border:none; font-family:inherit; }
+  .btn-sm { padding:9px 18px; font-size:14px; }
+  .btn-primary { background:var(--ink); color:#fff; }
+  main { max-width:760px; margin:0 auto; padding:64px 24px 96px; }
+  .back { display:inline-block; font-size:14px; font-weight:600; color:var(--muted); margin-bottom:28px; }
+  .back:hover { color:var(--indigo); }
+  h1 { font-size:clamp(30px,5vw,42px); font-weight:800; letter-spacing:-.02em; line-height:1.15; }
+  .meta { color:var(--muted); font-size:14px; margin:12px 0 32px; }
+  h2 { font-size:22px; font-weight:700; letter-spacing:-.01em; margin:36px 0 12px; }
+  p { color:#3c3c43; margin-bottom:16px; }
+  ol, ul { padding-left:24px; margin:0 0 16px; color:#3c3c43; }
+  li { margin-bottom:8px; }
+  .cta { background:var(--grad); border-radius:20px; padding:36px 28px; margin:32px 0; text-align:center; color:#fff; }
+  .cta h2 { font-size:24px; font-weight:800; letter-spacing:-.02em; margin-bottom:10px; color:#fff; }
+  .cta p { color:rgba(255,255,255,.92); font-size:16px; margin:0 auto 20px; max-width:460px; }
+  .cta .btn { background:#fff; color:#111; padding:12px 26px; font-size:15px; }
+  footer { border-top:1px solid var(--line); padding:56px 0 40px; background:var(--bg-soft); }
+  .foot-grid { display:flex; justify-content:space-between; gap:32px; flex-wrap:wrap; }
+  .foot-col h4 { font-size:13px; font-weight:700; text-transform:uppercase; letter-spacing:.1em; color:var(--muted); margin-bottom:14px; }
+  .foot-col a { display:block; color:#424245; font-size:14px; padding:5px 0; }
+  .foot-col a:hover { color:var(--indigo); }
+  .foot-bottom { margin-top:40px; padding-top:24px; border-top:1px solid var(--line); display:flex; justify-content:space-between; gap:16px; flex-wrap:wrap; color:var(--muted); font-size:13px; }
+  @media (max-width:960px) { .nav-links { display:none; } }
+  @media (max-width: 520px) {
+    .nav-inner { gap: 10px; }
+    .brand { font-size: 16px; gap: 8px; }
+    .brand .logo { width: 30px; height: 30px; }
+    .lang { gap: 0; font-size: 12px; }
+    .lang a { padding: 4px 4px; }
+  }
+  @media (max-width: 470px) {
+    .nav-inner > .btn-sm { display: none; }
+  }
+</style>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6EVZZKY1KC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-6EVZZKY1KC');
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://imageget.rayyao.com/ko/blog/getting-started.html"
+  },
+  "headline": "ImageGet 5분 만에 시작하기",
+  "description": "ImageGet이 처음이신가요? 이 빠른 가이드를 따라 하면 다운로드부터 첫 저장까지 약 5분이면 충분합니다.",
+  "image": "https://imageget.rayyao.com/images/imageget-main.png",
+  "datePublished": "2026-08-28",
+  "dateModified": "2026-08-28",
+  "inLanguage": "ko",
+  "author": {
+    "@type": "Organization",
+    "name": "ImageGet 팀 (ImageGet Team)",
+    "url": "https://x.com/elaine20230910"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "ImageGet",
+    "url": "https://imageget.rayyao.com/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://imageget.rayyao.com/images/imageget.png"
+    }
+  }
+}
+</script>
+</head>
+<body>
+
+<nav>
+  <div class="wrap nav-inner">
+    <a href="../index.html" class="brand">
+      <img class="logo" src="../../images/imageget.png" alt="ImageGet 로고" />
+      ImageGet
+    </a>
+    <div class="nav-links">
+      <a href="../index.html#features">기능</a>
+      <a href="../index.html#how">사용법</a>
+      <a href="../index.html#pricing">Premium</a>
+      <a href="../index.html#faq">FAQ</a>
+      <a href="../blog.html">블로그</a>
+    </div>
+    <div class="lang">
+      <a href="../../blog/getting-started.html">EN</a>
+      <a href="../../de/blog/getting-started.html">DE</a>
+      <a href="../../fr/blog/getting-started.html">FR</a>
+      <a href="../../it/blog/getting-started.html">IT</a>
+      <a href="../../ja/blog/getting-started.html">JA</a>
+      <a href="../../es/blog/getting-started.html">ES</a>
+      <a href="getting-started.html" class="active">KO</a>
+    </div>
+    <a href="https://apps.apple.com/us/app/imageget-downloader-from-web/id878190312" target="_blank" rel="noopener" class="btn btn-primary btn-sm">다운로드</a>
+  </div>
+</nav>
+
+<main>
+  <a class="back" href="../blog.html">← 모든 글</a>
+  <h1>ImageGet 5분 만에 시작하기</h1>
+  <p class="meta">2026년 8월 28일 · <a href="https://x.com/elaine20230910" target="_blank" rel="noopener">ImageGet 팀</a></p>
+
+  <p>ImageGet이 처음이신가요? 이 빠른 가이드를 따라 하면 다운로드부터 첫 저장까지 약 5분이면 끝납니다.</p>
+
+  <div class="cta">
+    <p>ImageGet을 무료로 다운로드하세요 — 이미지와 릴스를 한 번의 탭으로 저장합니다.</p>
+    <a href="https://apps.apple.com/us/app/imageget-downloader-from-web/id878190312" target="_blank" rel="noopener" class="btn">ImageGet 다운로드</a>
+  </div>
+
+  <h2>ImageGet이란?</h2>
+  <p>ImageGet은 웹을 위한 올인원 사진 저장 도구입니다. Instagram에 로그인해 둘러보면서 이미지와 릴스를 저장하거나, URL을 입력해 페이지의 모든 이미지를 모을 수 있습니다. 그런 다음 직접 살펴보고, 걸러내고, 사진 앨범에 바로 저장하세요.</p>
+
+  <h2>1단계: 앱 다운로드</h2>
+  <p>App Store에서 ImageGet을 받으세요. 다운로드는 무료이며, 무료 요금제에는 <strong>Instagram 3회, 웹 이미지 2회, 동영상 3회(YouTube Shorts, X, Facebook Reels)</strong> 저장이 포함됩니다. 마음에 드시면 Premium으로 업그레이드해 횟수 제한 없이 저장하고 광고 없이 사용하세요.</p>
+
+  <h2>2단계: 첫 배치 저장하기</h2>
+  <ol>
+    <li>Instagram에 로그인하거나, 이미지를 저장할 페이지의 URL을 복사합니다.</li>
+    <li>ImageGet을 열고 링크를 붙여넣습니다.</li>
+    <li><em>Go</em>를 탭하면 페이지의 모든 이미지를 모읍니다.</li>
+    <li>그리드를 확인한 뒤 <em>Save All</em>을 탭합니다.</li>
+  </ol>
+
+  <img src="../../images/imageget-main.png" alt="iPhone에서 실행 중인 ImageGet 앱" loading="lazy" style="width:100%;max-width:340px;margin:28px auto 12px;display:block;border-radius:20px;border:2px solid rgba(0,0,0,.14);box-shadow:0 12px 30px rgba(0,0,0,.14);" />
+
+  <h2>3단계: 주요 기능 살펴보기</h2>
+  <ul>
+    <li><strong>Instagram 및 Reels</strong> — 로그인하고 한 번의 탭으로 이미지와 동영상을 저장합니다.</li>
+    <li><strong>한 번의 탭으로 일괄 다운로드</strong> — 페이지의 모든 이미지를 한 번에 저장합니다.</li>
+    <li><strong>Smart Filtering</strong> — 큰 이미지만 남기고 작은 아이콘과 썸네일은 건너뜁니다.</li>
+    <li><strong>백그라운드 실행</strong> — 계속 둘러보는 동안 여러 페이지를 대기열에 넣습니다.</li>
+    <li><strong>전체 화면 미리보기</strong> — 확대하고 넘기면서 이미지를 자세히 확인합니다.</li>
+    <li><strong>내장 브라우저</strong> — 북마크를 지원하는 브라우저로 앱 안에서 바로 둘러봅니다.</li>
+  </ul>
+
+  <img src="../../images/iphone-5.webp" alt="iPhone에서 실행 중인 ImageGet 앱" loading="lazy" style="width:100%;max-width:340px;margin:28px auto 12px;display:block;border-radius:20px;border:2px solid rgba(0,0,0,.14);box-shadow:0 12px 30px rgba(0,0,0,.14);" />
+
+  <h2>빠른 팁</h2>
+  <p>내장 브라우저로 즐겨 찾는 사이트를 방문하면 앱을 나가지 않고도 이미지를 저장할 수 있습니다. 자주 쓰는 사이트를 북마크해 두면 언제나 한 번의 탭으로 열 수 있습니다.</p>
+
+  <div class="cta">
+    <h2>보고. 저장하고. 간단하게.</h2>
+    <p>ImageGet을 무료로 다운로드하고 이미지와 릴스를 한 번의 탭으로 저장하세요.</p>
+    <a href="https://apps.apple.com/us/app/imageget-downloader-from-web/id878190312" target="_blank" rel="noopener" class="btn">ImageGet 다운로드</a>
+  </div>
+
+  <h2>관련 가이드</h2>
+  <ul style="list-style:none;padding:0;margin:0 0 8px;">
+    <li style="margin:6px 0;"><a href="../../blog/batch-download-images.html" style="color:var(--indigo);font-weight:600;">웹 이미지를 한 번의 탭으로 일괄 다운로드하는 방법</a></li>
+    <li style="margin:6px 0;"><a href="../../blog/save-instagram-photos.html" style="color:var(--indigo);font-weight:600;">Instagram 사진, 릴스, 동영상을 저장하는 방법</a></li>
+    <li style="margin:6px 0;"><a href="../../blog/download-youtube-shorts.html" style="color:var(--indigo);font-weight:600;">YouTube Shorts를 다운로드하는 방법</a></li>
+    <li style="margin:6px 0;"><a href="../supported-sites.html" style="color:var(--indigo);font-weight:600;">지원하는 모든 사이트 보기</a></li>
+  </ul>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-col">
+        <a href="../index.html" class="brand" style="font-size:16px;">
+          <img class="logo" src="../../images/imageget.png" alt="ImageGet 로고" />
+          ImageGet
+        </a>
+        <p style="color:var(--muted);font-size:14px;margin-top:12px;max-width:260px;">보고. 저장하고. 간단하게. 웹을 위한 올인원 사진 저장 도구.</p>
+      </div>
+      <div class="foot-col">
+        <h4>제품</h4>
+        <a href="../index.html#features">기능</a>
+        <a href="../index.html#how">사용법</a>
+        <a href="../index.html#pricing">Premium</a>
+        <a href="../supported-sites.html">지원 사이트</a>
+        <a href="../blog.html">블로그</a>
+      </div>
+      <div class="foot-col">
+        <h4>지원</h4>
+        <a href="../index.html#faq">FAQ</a>
+        <a href="../contact.html">문의하기</a>
+        <a href="../support.html">고객 지원</a>
+      </div>
+      <div class="foot-col">
+        <h4>법적 고지</h4>
+        <a href="../privacy.html">개인정보 처리방침</a>
+        <a href="../terms.html">서비스 약관</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 ImageGet. 모든 권리 보유.</span>
+      <span>ImageGet - Downloader From Web</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
