@@ -14,6 +14,7 @@ ImageGet - Downloader From Web is available on the App Store (App Store ID 87819
 
 ## Guides
 
+- [How to Download HD & 4K Wallpapers from Any Website to Your iPhone](https://imageget.rayyao.com/blog/save-4k-wallpapers-iphone.html): Save the full-resolution image a wallpaper site serves — not the blurry preview — straight to your iPhone photo library. Filter by size and keep the largest file.
 - [Getting Started with ImageGet in 5 Minutes](https://imageget.rayyao.com/blog/getting-started.html): New to ImageGet? This quick guide gets you from download to your first saved batch in about five minutes.
 - [How to Batch Download Images from Web in One Tap](https://imageget.rayyao.com/blog/batch-download-images.html): Learn how to batch download images from web with ImageGet. Paste any URL and save every image on the page in a single tap — no more right-clicking or screenshots.
 - [How to Save Instagram Photos, Reels & Videos](https://imageget.rayyao.com/blog/save-instagram-photos.html): Learn how to save Instagram photos, reels, and videos to your photo library with ImageGet. Log in, browse, and download in one tap — no screenshots or screen recording.
@@ -38,7 +39,7 @@ ImageGet - Downloader From Web is available on the App Store (App Store ID 87819
 - Portuguese (Brazil): https://imageget.rayyao.com/pt/
 - Korean: https://imageget.rayyao.com/ko/
 
-All twelve guides are published in English, German, French, Italian and Japanese.
+All thirteen guides are published in English; twelve of them are also available in German, French, Italian and Japanese. The wallpaper guide is English only so far.
 
 - [German guides](https://imageget.rayyao.com/de/blog.html)
 - [French guides](https://imageget.rayyao.com/fr/blog.html)
