@@ -39,7 +39,7 @@ ImageGet - Downloader From Web is available on the App Store (App Store ID 87819
 - Portuguese (Brazil): https://imageget.rayyao.com/pt/
 - Korean: https://imageget.rayyao.com/ko/
 
-All thirteen guides are published in English; twelve of them are also available in German, French, Italian and Japanese. and the wallpaper guide is also available in Spanish, Portuguese and Korean.
+All thirteen guides are published in English, German, French, Italian and Japanese; the wallpaper guide is additionally available in Spanish, Portuguese and Korean.
 
 - [German guides](https://imageget.rayyao.com/de/blog.html)
 - [French guides](https://imageget.rayyao.com/fr/blog.html)

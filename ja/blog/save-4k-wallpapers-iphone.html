@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="canonical" href="https://imageget.rayyao.com/ja/blog/save-4k-wallpapers-iphone.html" />
+<meta property="og:site_name" content="ImageGet" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://imageget.rayyao.com/ja/blog/save-4k-wallpapers-iphone.html" />
+<meta property="og:title" content="iPhone に HD・4K 壁紙をあらゆるサイトから保存する方法 — ImageGet" />
+<meta property="og:description" content="壁紙サイトが配信している元のフル解像度画像を、ぼやけたプレビューではなくそのまま iPhone の写真ライブラリに保存します。サイズで絞り込んで一番大きいファイルを残しましょう。" />
+<meta property="og:image" content="https://imageget.rayyao.com/images/og-save-4k-wallpapers-iphone.jpg" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="ImageGet — Web の写真と動画をワンタップで保存" />
+<meta property="og:locale" content="ja_JP" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="iPhone に HD・4K 壁紙をあらゆるサイトから保存する方法 — ImageGet" />
+<meta name="twitter:description" content="壁紙サイトが配信している元のフル解像度画像を、ぼやけたプレビューではなくそのまま iPhone の写真ライブラリに保存します。サイズで絞り込んで一番大きいファイルを残しましょう。" />
+<meta name="twitter:image" content="https://imageget.rayyao.com/images/og-save-4k-wallpapers-iphone.jpg" />
+<title>iPhone に HD・4K 壁紙をあらゆるサイトから保存する方法 — ImageGet</title>
+<meta name="description" content="壁紙サイトが配信している元のフル解像度画像を、ぼやけたプレビューではなくそのまま iPhone の写真ライブラリに保存します。サイズで絞り込んで一番大きいファイルを残しましょう。" />
+<link rel="icon" type="image/png" href="../../images/imageget.png" />
+<meta name="google-site-verification" content="fKMPGIHzQejo5i1IyGI4EdbKFSJUtiFocqQJe095gkk" />
+<link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/blog/save-4k-wallpapers-iphone.html" />
+<link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/blog/save-4k-wallpapers-iphone.html" />
+<link rel="alternate" hreflang="fr" href="https://imageget.rayyao.com/fr/blog/save-4k-wallpapers-iphone.html" />
+<link rel="alternate" hreflang="it" href="https://imageget.rayyao.com/it/blog/save-4k-wallpapers-iphone.html" />
+<link rel="alternate" hreflang="ja" href="https://imageget.rayyao.com/ja/blog/save-4k-wallpapers-iphone.html" />
+<link rel="alternate" hreflang="es" href="https://imageget.rayyao.com/es/blog/save-4k-wallpapers-iphone.html" />
+<link rel="alternate" hreflang="pt-BR" href="https://imageget.rayyao.com/pt/blog/save-4k-wallpapers-iphone.html" />
+<link rel="alternate" hreflang="ko" href="https://imageget.rayyao.com/ko/blog/save-4k-wallpapers-iphone.html" />
+<link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/blog/save-4k-wallpapers-iphone.html" />
+<style>
+  :root { --ink:#1d1d1f; --muted:#6e6e73; --line:rgba(0,0,0,.08); --indigo:#4f46e5; --grad:linear-gradient(135deg,#6366f1 0%,#8b5cf6 45%,#d946ef 100%); --bg-soft:#f5f5f7; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,Helvetica,Arial,sans-serif; color:var(--ink); line-height:1.7; -webkit-font-smoothing:antialiased; }
+  a { color:inherit; text-decoration:none; }
+  img { display:block; }
+  .wrap { width:100%; max-width:1120px; margin:0 auto; padding:0 24px; }
+  nav { position:sticky; top:0; z-index:50; background:rgba(255,255,255,.72); -webkit-backdrop-filter:saturate(180%) blur(20px); backdrop-filter:saturate(180%) blur(20px); border-bottom:1px solid var(--line); }
+  .nav-inner { display:flex; align-items:center; justify-content:space-between; height:64px; }
+  .brand { display:flex; align-items:center; gap:10px; font-weight:700; font-size:18px; letter-spacing:-.01em; }
+  .brand .logo { width:34px; height:34px; border-radius:9px; flex:none; object-fit:cover; box-shadow:0 2px 10px rgba(0,0,0,.16); }
+  .nav-links { display:flex; align-items:center; gap:28px; font-size:14px; font-weight:500; color:#424245; }
+  .nav-links a { transition:color .2s; }
+  .nav-links a:hover { color:var(--indigo); }
+  .lang { display:flex; align-items:center; gap:4px; font-size:13px; font-weight:600; }
+  .lang a { color:var(--muted); padding:4px 7px; border-radius:6px; }
+  .lang a.active { color:var(--ink); background:#e9e9ee; }
+  .lang a:hover { color:var(--indigo); }
+  .btn { display:inline-flex; align-items:center; justify-content:center; gap:8px; font-weight:600; border-radius:999px; cursor:pointer; transition:transform .15s ease, box-shadow .2s ease; border:none; font-family:inherit; }
+  .btn-sm { padding:9px 18px; font-size:14px; }
+  .btn-primary { background:var(--ink); color:#fff; }
+  main { max-width:760px; margin:0 auto; padding:64px 24px 96px; }
+  .back { display:inline-block; font-size:14px; font-weight:600; color:var(--muted); margin-bottom:28px; }
+  .back:hover { color:var(--indigo); }
+  h1 { font-size:clamp(30px,5vw,42px); font-weight:800; letter-spacing:-.02em; line-height:1.15; }
+  .meta { color:var(--muted); font-size:14px; margin:12px 0 32px; }
+  h2 { font-size:22px; font-weight:700; letter-spacing:-.01em; margin:36px 0 12px; }
+  h3 { font-size:17px; font-weight:700; letter-spacing:-.01em; margin:24px 0 8px; }
+  p { color:#3c3c43; margin-bottom:16px; }
+  ol, ul { padding-left:24px; margin:0 0 16px; color:#3c3c43; }
+  li { margin-bottom:8px; }
+  .cta { background:var(--grad); border-radius:20px; padding:36px 28px; margin:32px 0; text-align:center; color:#fff; }
+  .cta h2 { font-size:24px; font-weight:800; letter-spacing:-.02em; margin-bottom:10px; color:#fff; }
+  .cta p { color:rgba(255,255,255,.92); font-size:16px; margin:0 auto 20px; max-width:460px; }
+  .cta .btn { background:#fff; color:#111; padding:12px 26px; font-size:15px; }
+  footer { border-top:1px solid var(--line); padding:56px 0 40px; background:var(--bg-soft); }
+  .foot-grid { display:flex; justify-content:space-between; gap:32px; flex-wrap:wrap; }
+  .foot-col h4 { font-size:13px; font-weight:700; text-transform:uppercase; letter-spacing:.1em; color:var(--muted); margin-bottom:14px; }
+  .foot-col a { display:block; color:#424245; font-size:14px; padding:5px 0; }
+  .foot-col a:hover { color:var(--indigo); }
+  .foot-bottom { margin-top:40px; padding-top:24px; border-top:1px solid var(--line); display:flex; justify-content:space-between; gap:16px; flex-wrap:wrap; color:var(--muted); font-size:13px; }
+  @media (max-width:960px) { .nav-links { display:none; } }
+  @media (max-width: 520px) {
+    .nav-inner { gap: 10px; }
+    .brand { font-size: 16px; gap: 8px; }
+    .brand .logo { width: 30px; height: 30px; }
+    .lang { gap: 0; font-size: 12px; }
+    .lang a { padding: 4px 4px; }
+  }
+  @media (max-width: 470px) {
+    .nav-inner > .btn-sm { display: none; }
+  }
+</style>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6EVZZKY1KC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-6EVZZKY1KC');
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "iPhone に 4K の壁紙をダウンロードするには？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "壁紙があるページのリンクをコピーして ImageGet に貼り、Go をタップしたらサイズで絞り込んで、サイトが配信している一番大きいバージョンを残します。Save All をタップすれば、フル解像度のファイルが写真ライブラリに入り、壁紙として設定できます。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "保存した壁紙が iPhone でぼやけるのはなぜ？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "保存されたファイルが、サイトの背後にある元画像ではなく、ページに表示されていたプレビューだったことがほとんどです。ImageGet はページが参照しているすべてのサイズを集めるので、解像度で絞り込んでサムネイルではなく大きいバージョンを保存できます。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "iPhone の壁紙にはどのくらいの解像度が必要？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "最近の iPhone の画面は横 1170〜1320 ピクセル、縦 2530〜2870 ピクセルほどで、アスペクト比はおよそ 9:19.5 です。このピクセル数以上の縦長画像なら鮮明に見えますが、それより少ないと iOS が拡大してぼやけます。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "ImageGet で壁紙を無料でダウンロードできますか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "はい。無料プランには Web 画像のダウンロードが2回分含まれ、Premium では回数制限なく保存できます。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "右クリックを禁止しているサイトでも使えますか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "はい。ImageGet はタップではなくページを読み込むので、長押しや右クリックを無効にしているサイトでも問題ありません。ページにある画像をそのまま集めます。"
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://imageget.rayyao.com/ja/blog/save-4k-wallpapers-iphone.html"
+  },
+  "headline": "iPhone に HD・4K 壁紙をあらゆるサイトから保存する方法",
+  "description": "壁紙サイトが配信している元のフル解像度画像を、ぼやけたプレビューではなくそのまま iPhone の写真ライブラリに保存します。サイズで絞り込んで一番大きいファイルを残しましょう。",
+  "image": "https://imageget.rayyao.com/images/iphone-4.webp",
+  "datePublished": "2026-11-02",
+  "dateModified": "2026-11-02",
+  "inLanguage": "ja",
+  "author": {
+    "@type": "Organization",
+    "name": "ImageGet チーム",
+    "url": "https://x.com/elaine20230910"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "ImageGet",
+    "url": "https://imageget.rayyao.com/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://imageget.rayyao.com/images/imageget.png"
+    }
+  }
+}
+</script>
+</head>
+<body>
+
+<nav>
+  <div class="wrap nav-inner">
+    <a href="../index.html" class="brand">
+      <img class="logo" src="../../images/imageget.png" alt="ImageGet ロゴ" />
+      ImageGet
+    </a>
+    <div class="nav-links">
+      <a href="../index.html#features">機能</a>
+      <a href="../index.html#how">使い方</a>
+      <a href="../index.html#pricing">プレミアム</a>
+      <a href="../index.html#faq">FAQ</a>
+      <a href="../blog.html">ブログ</a>
+    </div>
+        <div class="lang">
+      <a href="../../blog/save-4k-wallpapers-iphone.html">EN</a>
+      <a href="../../de/blog/save-4k-wallpapers-iphone.html">DE</a>
+      <a href="../../fr/blog/save-4k-wallpapers-iphone.html">FR</a>
+      <a href="../../it/blog/save-4k-wallpapers-iphone.html">IT</a>
+      <a href="save-4k-wallpapers-iphone.html" class="active">JA</a>
+      <a href="../../es/blog/save-4k-wallpapers-iphone.html">ES</a>
+      <a href="../../pt/blog/save-4k-wallpapers-iphone.html">PT</a>
+      <a href="../../ko/blog/save-4k-wallpapers-iphone.html">KO</a>
+    </div>
+    <a href="https://apps.apple.com/us/app/imageget-downloader-from-web/id878190312" target="_blank" rel="noopener" class="btn btn-primary btn-sm">ダウンロード</a>
+  </div>
+</nav>
+
+<main>
+  <a class="back" href="../blog.html">← 記事一覧</a>
+  <h1>iPhone に HD・4K 壁紙をあらゆるサイトから保存する方法</h1>
+  <p class="meta">2026年11月2日 · <a href="https://x.com/elaine20230910" target="_blank" rel="noopener">ImageGet チーム</a></p>
+
+  <p>壁紙はブラウザでは完璧に見えるのに、ロック画面ではひどく見えることがあります。これはサイトが解像度を偽っていたからではなく、iPhone が保存した画像がページに表示されていたプレビューで、その背後にある大きなファイルではなかったからです。ImageGet はページが参照している画像をすべて集めるので、実際のサイズを確認して一番大きいものを残し、写真ライブラリに保存できます。</p>
+
+  <div class="cta">
+    <p>ImageGet を無料でダウンロード — 縮小版ではなくフルサイズの壁紙を保存。</p>
+    <a href="https://apps.apple.com/us/app/imageget-downloader-from-web/id878190312" target="_blank" rel="noopener" class="btn">ImageGet をダウンロード</a>
+  </div>
+
+  <h2>壁紙が「正しく保存するのが一番難しい画像」である理由</h2>
+  <p>壁紙サイトはフル解像度のファイルを守るように作られています。右クリックや長押しはたいてい無効化され、ダウンロードボタンは別のページを先に開くことが多く、画面に表示されている画像は元画像を縮小したコピーであることもよくあります。そのコピーを保存してしまうと、Safari では鮮明なのに他のどこでもぼやけた壁紙になります。</p>
+  <p>2つ目の問題は、1つのページが1つのファイルだけを参照していることはほとんどないという点です。サムネイル、いくつかの中間サイズ、ときには別の形で切り抜かれたモバイル版、そして普通の img タグではなく CSS の背景として指定された画像も参照しています。どのバージョンを手にするかは、どこをタップするかで変わります。</p>
+
+  <h2>iPhone における「HD」と「4K」の本当の意味</h2>
+  <p>大事な数字は2つあり、そのうちみんなが口にするのは片方だけです。</p>
+  <ul>
+    <li><strong>ピクセル数。</strong> 最近の iPhone の画面は横 1170〜1320 ピクセル、縦 2530〜2870 ピクセルほどです。この解像度以上の壁紙は鮮明に見えますが、それより小さいと iOS が拡大してディテールが失われます。</li>
+    <li><strong>アスペクト比。</strong> iPhone の画面はほぼ 9:19.5 の縦長です。一方、4K の壁紙は 3840 × 2160 で 16:9 の横長。フル HD の4倍のピクセル数がありますが、設定時に半分以上が切り取られるため、スマホの壁紙としては向いていません。</li>
+  </ul>
+  <p>つまり「4K」という表示はファイルが大きいことしか示しておらず、自分のスマホに合うかは分かりません。壁紙サイトではまずスマホ用・縦長のコーナーを探し、そのうえでピクセル数を確認してください。縦長であることと十分なピクセル数がそろって初めて、壁紙は鮮明になります。</p>
+
+  <h2>ステップ1：壁紙ページのリンクをコピーする</h2>
+  <p>コピーするのは壁紙が表示されているページの URL です。画像ファイルの URL でも、サイトのダウンロードボタンでもありません。ImageGet はページそのものを読み込みますが、画像のすべてのバージョンはそこにあります。</p>
+
+  <h2>ステップ2：ImageGet に貼り付けて Go をタップ</h2>
+  <p>ImageGet を開いてリンクを貼り、<em>Go</em> をタップします。ImageGet はページを読み込み、参照されている画像をすべて集めます。プレビュー、サーバーが配信している各サイズ、ページの背景として指定された画像まで含まれます。当てずっぽうの1枚ではなく、セット全体をグリッドで確認できます。</p>
+
+  <img src="../../images/iphone-2.webp" alt="壁紙ページのリンクを ImageGet に貼り付けたところ" loading="lazy" style="width:100%;max-width:340px;margin:24px auto 8px;display:block;border-radius:20px;border:2px solid rgba(0,0,0,.14);box-shadow:0 12px 30px rgba(0,0,0,.14);" />
+
+  <h2>ステップ3：解像度で絞り込み、一番大きいものを残す</h2>
+  <p>このステップが壁紙の鮮明さを決めます。<strong>Smart Filtering</strong> をオンにして最小サイズを設定すると、ImageGet はサムネイルやプレビュー用のコピーを外し、各画像のフル解像度版だけを残します。同じ画像が複数のサイズで配信されているページでも、絞り込めば大きい方を保存できます。</p>
+  <p>画像をタップして全画面で開き、2本指でズームしてみてください。その倍率なら、400 px のプレビューと 3000 px の元画像の違いはひと目で分かります。保存する前に確認しましょう。</p>
+
+  <img src="../../images/iphone-4.webp" alt="ImageGet で画像サイズにより壁紙を絞り込んでいる画面" loading="lazy" style="width:100%;max-width:340px;margin:24px auto 8px;display:block;border-radius:20px;border:2px solid rgba(0,0,0,.14);box-shadow:0 12px 30px rgba(0,0,0,.14);" />
+
+  <h2>ステップ4：写真ライブラリに保存する</h2>
+  <p><em>Save All</em> をタップすると、画像はサイトが公開している解像度のまま写真ライブラリに入ります。途中で拡大されたり再圧縮されたりすることはありません。サイトに本物の 4K があれば、そのファイルがそのまま手に入ります。</p>
+  <p>ダウンロードしたものは ImageGet の Local Folder にも保存した日付ごとに残ります。候補をいくつか見比べているときは、ここに戻ってください。フルサイズのバージョンは、どれにするか決めるまでそこに残っています。</p>
+
+  <img src="../../images/iphone-6.webp" alt="ImageGet の Local Folder に日付ごとに保存された壁紙" loading="lazy" style="width:100%;max-width:340px;margin:24px auto 8px;display:block;border-radius:20px;border:2px solid rgba(0,0,0,.14);box-shadow:0 12px 30px rgba(0,0,0,.14);" />
+
+  <h2>ステップ5：iOS で壁紙に設定する</h2>
+  <p>保存した画像を写真アプリで開き、共有ボタンから<em>壁紙に設定</em>を選びます。または「設定」→「壁紙」→「新しい壁紙を追加」→「写真」の順に進みます。ここで知っておきたいことが2つあります。</p>
+  <ul>
+    <li><strong>iOS は拡大します。</strong> ロック画面は画面いっぱいに表示するために画像を拡大・切り抜きします。すでに画面と同じアスペクト比になっている画像が、最も失うものが少なくなります。</li>
+    <li><strong>視差効果をオフにする</strong>と、壁紙がアイコンの下をずれるように見える現象を防げます。この視差効果は端末を傾けると画像を動かし、端もさらに切り取ります。</li>
+  </ul>
+  <p>それでも柔らかく見えるなら、元のファイルが小さかった可能性が高いです。元のページに戻って、ピクセル数が一番多いバージョンを探してください。</p>
+
+  <h2>壁紙選びのクイックチェック</h2>
+  <ul>
+    <li>横長ではなく縦長。最近の iPhone ならおよそ 9:19.5。</li>
+    <li>画面以上のピクセル数。目安は 1170 × 2530 以上。</li>
+    <li>大事な部分が中央付近にあること。切り抜きで失われません。</li>
+    <li>iPhone がそのまま開ける形式。JPEG、PNG、HEIC、WebP。</li>
+  </ul>
+
+  <h2>FAQ</h2>
+  <h3>iPhone に 4K の壁紙をダウンロードするには？</h3>
+  <p>壁紙があるページのリンクをコピーして ImageGet に貼り、<em>Go</em> をタップしたらサイズで絞り込んで、サイトが配信している一番大きいバージョンを残します。<em>Save All</em> をタップすれば、フル解像度のファイルが写真ライブラリに入り、壁紙として設定できます。</p>
+  <h3>保存した壁紙が iPhone でぼやけるのはなぜ？</h3>
+  <p>保存されたファイルが、サイトの背後にある元画像ではなく、ページに表示されていたプレビューだったことがほとんどです。ImageGet はページが参照しているすべてのサイズを集めるので、解像度で絞り込んでサムネイルではなく大きいバージョンを保存できます。</p>
+  <h3>iPhone の壁紙にはどのくらいの解像度が必要？</h3>
+  <p>最近の iPhone の画面は横 1170〜1320 ピクセル、縦 2530〜2870 ピクセルほどで、アスペクト比はおよそ 9:19.5 です。このピクセル数以上の縦長画像なら鮮明に見えますが、それより少ないと iOS が拡大してぼやけます。</p>
+  <h3>ImageGet で壁紙を無料でダウンロードできますか？</h3>
+  <p>はい。無料プランには Web 画像のダウンロードが2回分含まれ、Premium では回数制限なく保存できます。</p>
+  <h3>右クリックを禁止しているサイトでも使えますか？</h3>
+  <p>はい。ImageGet はタップではなくページを読み込むので、長押しや右クリックを無効にしているサイトでも問題ありません。ページにある画像をそのまま集めます。</p>
+
+  <div class="cta">
+    <h2>見つけて、保存。かんたんに。</h2>
+    <p>ImageGet を無料でダウンロードして、フル解像度の壁紙を保存しましょう。</p>
+    <a href="https://apps.apple.com/us/app/imageget-downloader-from-web/id878190312" target="_blank" rel="noopener" class="btn">ImageGet をダウンロード</a>
+  </div>
+
+  <h2>関連ガイド</h2>
+  <ul style="list-style:none;padding:0;margin:0 0 8px;">
+    <li style="margin:6px 0;"><a href="batch-download-images.html" style="color:var(--indigo);font-weight:600;">Web の画像をまとめてダウンロードする方法</a></li>
+    <li style="margin:6px 0;"><a href="save-news-gallery-images.html" style="color:var(--indigo);font-weight:600;">ニュース写真・掲示板の画像を保存する方法</a></li>
+    <li style="margin:6px 0;"><a href="getting-started.html" style="color:var(--indigo);font-weight:600;">ImageGet を 5 分ではじめる</a></li>
+    <li style="margin:6px 0;"><a href="../supported-sites.html" style="color:var(--indigo);font-weight:600;">対応サイトをすべて見る</a></li>
+  </ul>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-col">
+        <a href="../index.html" class="brand" style="font-size:16px;">
+          <img class="logo" src="../../images/imageget.png" alt="ImageGet ロゴ" />
+          ImageGet
+        </a>
+        <p style="color:var(--muted);font-size:14px;margin-top:12px;max-width:260px;">見つけて、保存。かんたんに。Webのためのオールインワン画像保存アプリ。</p>
+      </div>
+      <div class="foot-col">
+        <h4>製品</h4>
+        <a href="../index.html#features">機能</a>
+        <a href="../index.html#how">使い方</a>
+        <a href="../index.html#pricing">プレミアム</a>
+        <a href="../supported-sites.html">対応サイト</a>
+        <a href="../blog.html">ブログ</a>
+      </div>
+      <div class="foot-col">
+        <h4>サポート</h4>
+        <a href="../index.html#faq">FAQ</a>
+        <a href="../contact.html">お問い合わせ</a>
+        <a href="../support.html">サポート</a>
+      </div>
+      <div class="foot-col">
+        <h4>法的情報</h4>
+        <a href="../privacy.html">プライバシーポリシー</a>
+        <a href="../terms.html">利用規約</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 ImageGet. All rights reserved.</span>
+      <span>ImageGet - Downloader From Web</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
