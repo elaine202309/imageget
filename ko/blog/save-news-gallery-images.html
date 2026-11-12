@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="canonical" href="https://imageget.rayyao.com/ko/blog/save-news-gallery-images.html" />
+<meta property="og:site_name" content="ImageGet" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://imageget.rayyao.com/ko/blog/save-news-gallery-images.html" />
+<meta property="og:title" content="뉴스 갤러리와 사진 포럼의 이미지를 저장하는 방법 — ImageGet" />
+<meta property="og:description" content="ImageGet으로 뉴스 갤러리와 사진 포럼의 사진을 사진 앨범에 저장하는 방법을 알아보세요. 페이지 URL을 붙여넣으면 앱이 모든 이미지를 모아 한 번의 탭으로 저장합니다." />
+<meta property="og:image" content="https://imageget.rayyao.com/images/og-save-news-gallery-images.jpg" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="ImageGet — 웹의 사진과 동영상을 한 번의 탭으로 저장" />
+<meta property="og:locale" content="ko_KR" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="뉴스 갤러리와 사진 포럼의 이미지를 저장하는 방법 — ImageGet" />
+<meta name="twitter:description" content="ImageGet으로 뉴스 갤러리와 사진 포럼의 사진을 사진 앨범에 저장하는 방법을 알아보세요. 페이지 URL을 붙여넣으면 앱이 모든 이미지를 모아 한 번의 탭으로 저장합니다." />
+<meta name="twitter:image" content="https://imageget.rayyao.com/images/og-save-news-gallery-images.jpg" />
+<title>뉴스 갤러리와 사진 포럼의 이미지를 저장하는 방법 — ImageGet</title>
+<meta name="description" content="ImageGet으로 뉴스 갤러리와 사진 포럼의 사진을 사진 앨범에 저장하는 방법을 알아보세요. 페이지 URL을 붙여넣으면 앱이 모든 이미지를 모아 한 번의 탭으로 저장합니다." />
+<link rel="icon" type="image/png" href="../../images/imageget.png" />
+<meta name="google-site-verification" content="fKMPGIHzQejo5i1IyGI4EdbKFSJUtiFocqQJe095gkk" />
+<link rel="alternate" hreflang="en" href="https://imageget.rayyao.com/blog/save-news-gallery-images.html" />
+<link rel="alternate" hreflang="de" href="https://imageget.rayyao.com/de/blog/save-news-gallery-images.html" />
+<link rel="alternate" hreflang="fr" href="https://imageget.rayyao.com/fr/blog/save-news-gallery-images.html" />
+<link rel="alternate" hreflang="it" href="https://imageget.rayyao.com/it/blog/save-news-gallery-images.html" />
+<link rel="alternate" hreflang="ja" href="https://imageget.rayyao.com/ja/blog/save-news-gallery-images.html" />
+<link rel="alternate" hreflang="pt-BR" href="https://imageget.rayyao.com/pt/blog/save-news-gallery-images.html" />
+<link rel="alternate" hreflang="ko" href="https://imageget.rayyao.com/ko/blog/save-news-gallery-images.html" />
+<link rel="alternate" hreflang="x-default" href="https://imageget.rayyao.com/blog/save-news-gallery-images.html" />
+<style>
+  :root { --ink:#1d1d1f; --muted:#6e6e73; --line:rgba(0,0,0,.08); --indigo:#4f46e5; --grad:linear-gradient(135deg,#6366f1 0%,#8b5cf6 45%,#d946ef 100%); --bg-soft:#f5f5f7; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,Helvetica,Arial,sans-serif; color:var(--ink); line-height:1.7; -webkit-font-smoothing:antialiased; }
+  a { color:inherit; text-decoration:none; }
+  img { display:block; }
+  .wrap { width:100%; max-width:1120px; margin:0 auto; padding:0 24px; }
+  nav { position:sticky; top:0; z-index:50; background:rgba(255,255,255,.72); -webkit-backdrop-filter:saturate(180%) blur(20px); backdrop-filter:saturate(180%) blur(20px); border-bottom:1px solid var(--line); }
+  .nav-inner { display:flex; align-items:center; justify-content:space-between; height:64px; }
+  .brand { display:flex; align-items:center; gap:10px; font-weight:700; font-size:18px; letter-spacing:-.01em; }
+  .brand .logo { width:34px; height:34px; border-radius:9px; flex:none; object-fit:cover; box-shadow:0 2px 10px rgba(0,0,0,.16); }
+  .nav-links { display:flex; align-items:center; gap:28px; font-size:14px; font-weight:500; color:#424245; }
+  .nav-links a { transition:color .2s; }
+  .nav-links a:hover { color:var(--indigo); }
+  .lang { display:flex; align-items:center; gap:4px; font-size:13px; font-weight:600; }
+  .lang a { color:var(--muted); padding:4px 7px; border-radius:6px; }
+  .lang a.active { color:var(--ink); background:#e9e9ee; }
+  .lang a:hover { color:var(--indigo); }
+  .btn { display:inline-flex; align-items:center; justify-content:center; gap:8px; font-weight:600; border-radius:999px; cursor:pointer; transition:transform .15s ease, box-shadow .2s ease; border:none; font-family:inherit; }
+  .btn-sm { padding:9px 18px; font-size:14px; }
+  .btn-primary { background:var(--ink); color:#fff; }
+  main { max-width:760px; margin:0 auto; padding:64px 24px 96px; }
+  .back { display:inline-block; font-size:14px; font-weight:600; color:var(--muted); margin-bottom:28px; }
+  .back:hover { color:var(--indigo); }
+  h1 { font-size:clamp(30px,5vw,42px); font-weight:800; letter-spacing:-.02em; line-height:1.15; }
+  .meta { color:var(--muted); font-size:14px; margin:12px 0 32px; }
+  h2 { font-size:22px; font-weight:700; letter-spacing:-.01em; margin:36px 0 12px; }
+  h3 { font-size:17px; font-weight:700; letter-spacing:-.01em; margin:24px 0 8px; }
+  p { color:#3c3c43; margin-bottom:16px; }
+  ol, ul { padding-left:24px; margin:0 0 16px; color:#3c3c43; }
+  li { margin-bottom:8px; }
+  .cta { background:var(--grad); border-radius:20px; padding:36px 28px; margin:32px 0; text-align:center; color:#fff; }
+  .cta h2 { font-size:24px; font-weight:800; letter-spacing:-.02em; margin-bottom:10px; color:#fff; }
+  .cta p { color:rgba(255,255,255,.92); font-size:16px; margin:0 auto 20px; max-width:460px; }
+  .cta .btn { background:#fff; color:#111; padding:12px 26px; font-size:15px; }
+  footer { border-top:1px solid var(--line); padding:56px 0 40px; background:var(--bg-soft); }
+  .foot-grid { display:flex; justify-content:space-between; gap:32px; flex-wrap:wrap; }
+  .foot-col h4 { font-size:13px; font-weight:700; text-transform:uppercase; letter-spacing:.1em; color:var(--muted); margin-bottom:14px; }
+  .foot-col a { display:block; color:#424245; font-size:14px; padding:5px 0; }
+  .foot-col a:hover { color:var(--indigo); }
+  .foot-bottom { margin-top:40px; padding-top:24px; border-top:1px solid var(--line); display:flex; justify-content:space-between; gap:16px; flex-wrap:wrap; color:var(--muted); font-size:13px; }
+  @media (max-width:960px) { .nav-links { display:none; } }
+  @media (max-width: 520px) {
+    .nav-inner { gap: 10px; }
+    .brand { font-size: 16px; gap: 8px; }
+    .brand .logo { width: 30px; height: 30px; }
+    .lang { gap: 0; font-size: 12px; }
+    .lang a { padding: 4px 4px; }
+  }
+  @media (max-width: 470px) {
+    .nav-inner > .btn-sm { display: none; }
+  }
+</style>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6EVZZKY1KC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-6EVZZKY1KC');
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "뉴스 갤러리를 통째로 다운로드할 수 있나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "네. 갤러리 URL을 붙여넣고 일괄 모드로 갤러리 전체를 한 번에 다운로드할 수 있습니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "사진이 최고 화질로 저장되나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "네. 사진은 원본 해상도 그대로 저장되며, 앱이 압축을 더하거나 워터마크를 넣지 않습니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "어떤 사이트에서 쓸 수 있나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "둘러볼 수 있는 어떤 사이트든 됩니다. 뉴스 갤러리, 사진 포럼, 커뮤니티 게시판 모두 해당됩니다."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://imageget.rayyao.com/ko/blog/save-news-gallery-images.html"
+  },
+  "headline": "뉴스 갤러리와 사진 포럼의 이미지를 저장하는 방법",
+  "description": "ImageGet으로 뉴스 갤러리와 사진 포럼의 사진을 사진 앨범에 저장하는 방법을 알아보세요. 페이지 URL을 붙여넣으면 앱이 모든 이미지를 모아 한 번의 탭으로 저장합니다.",
+  "image": "https://imageget.rayyao.com/images/imageget-main.png",
+  "datePublished": "2026-09-22",
+  "dateModified": "2026-09-22",
+  "inLanguage": "ko",
+  "author": {
+    "@type": "Person",
+    "name": "@elaine20230910",
+    "url": "https://x.com/elaine20230910"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "ImageGet",
+    "url": "https://imageget.rayyao.com/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://imageget.rayyao.com/images/imageget.png"
+    }
+  }
+}
+</script>
+</head>
+<body>
+
+<nav>
+  <div class="wrap nav-inner">
+    <a href="../index.html" class="brand">
+      <img class="logo" src="../../images/imageget.png" alt="ImageGet 로고" />
+      ImageGet
+    </a>
+    <div class="nav-links">
+      <a href="../index.html#features">기능</a>
+      <a href="../index.html#how">사용법</a>
+      <a href="../index.html#pricing">Premium</a>
+      <a href="../index.html#faq">FAQ</a>
+      <a href="../blog.html">블로그</a>
+    </div>
+            <div class="lang">
+      <a href="../../blog/save-news-gallery-images.html">EN</a>
+      <a href="../../de/blog/save-news-gallery-images.html">DE</a>
+      <a href="../../fr/blog/save-news-gallery-images.html">FR</a>
+      <a href="../../it/blog/save-news-gallery-images.html">IT</a>
+      <a href="../../ja/blog/save-news-gallery-images.html">JA</a>
+      <a href="../../pt/blog/save-news-gallery-images.html">PT</a>
+      <a href="save-news-gallery-images.html" class="active">KO</a>
+    </div>
+    <a href="https://apps.apple.com/us/app/imageget-downloader-from-web/id878190312" target="_blank" rel="noopener" class="btn btn-primary btn-sm">다운로드</a>
+  </div>
+</nav>
+
+<main>
+  <a class="back" href="../blog.html">← 모든 글</a>
+  <h1>뉴스 갤러리와 사진 포럼의 이미지를 저장하는 방법</h1>
+  <p class="meta">2026년 9월 22일 · <a href="https://x.com/elaine20230910" target="_blank" rel="noopener">@elaine20230910</a></p>
+
+  <p>뉴스 사진 갤러리와 사진 포럼에는 간직하고 싶은 이미지가 가득합니다. 하지만 하나씩 저장하는 일은 느리고 번거롭습니다. ImageGet은 다릅니다. URL을 붙여넣으면 앱이 페이지의 모든 이미지를 모아 주므로, 확인하고 한 번의 탭으로 저장하면 됩니다. 단계별로 알려드릴게요.</p>
+
+  <div class="cta">
+    <p>ImageGet을 무료로 다운로드하세요 — 뉴스 갤러리와 포럼의 이미지를 한 번의 탭으로 저장합니다.</p>
+    <a href="https://apps.apple.com/us/app/imageget-downloader-from-web/id878190312" target="_blank" rel="noopener" class="btn">ImageGet 다운로드</a>
+  </div>
+
+  <h2>1단계: 갤러리나 포럼 URL 붙여넣기</h2>
+  <p>ImageGet을 열고 저장할 뉴스 갤러리, 기사 또는 포럼 글의 링크를 붙여넣습니다. 어떤 브라우저에서든 URL을 복사하거나, ImageGet의 내장 브라우저로 사이트를 직접 열어도 됩니다. ImageGet이 페이지를 읽고 이미지를 모으기 시작합니다.</p>
+
+  <img src="../../images/iphone-2.webp" alt="ImageGet에 뉴스 갤러리 URL을 붙여넣는 모습" loading="lazy" style="width:100%;max-width:340px;margin:24px auto 8px;display:block;border-radius:20px;border:2px solid rgba(0,0,0,.14);box-shadow:0 12px 30px rgba(0,0,0,.14);" />
+
+  <h2>2단계: 모든 이미지 모으기</h2>
+  <p>ImageGet은 뉴스 갤러리의 사진과 포럼 글의 원본 크기 이미지까지, 심지어 스크롤하면서 불러오는 이미지까지 페이지의 모든 이미지를 수집합니다. 하나씩 길게 눌러 저장할 필요가 없습니다. 기사가 여러 페이지로 나뉘어 있다면 각 페이지의 URL을 붙여넣어 모두 모으세요.</p>
+
+  <img src="../../images/iphone-4.webp" alt="ImageGet이 뉴스 갤러리의 이미지를 모으는 모습" loading="lazy" style="width:100%;max-width:340px;margin:24px auto 8px;display:block;border-radius:20px;border:2px solid rgba(0,0,0,.14);box-shadow:0 12px 30px rgba(0,0,0,.14);" />
+
+  <h2>3단계: 선택하고 저장하기</h2>
+  <p>모인 이미지를 정돈된 그리드에서 확인합니다. 아무 이미지나 탭하면 전체 화면으로 미리 볼 수 있습니다. 남길 사진을 선택하고 한 번의 탭으로 사진 앨범에 저장하세요. Smart Filtering을 켜면 작은 썸네일과 아바타를 건너뛰고 원본 크기 사진만 남길 수 있습니다.</p>
+
+  <img src="../../images/iphone-5.webp" alt="ImageGet에서 뉴스 갤러리 사진을 골라 저장하는 모습" loading="lazy" style="width:100%;max-width:340px;margin:24px auto 8px;display:block;border-radius:20px;border:2px solid rgba(0,0,0,.14);box-shadow:0 12px 30px rgba(0,0,0,.14);" />
+
+  <h2>갤러리와 포럼에서 저장하는 팁</h2>
+  <ul>
+    <li><strong>갤러리 통째로 저장하기</strong> — 뉴스 갤러리나 포럼 글 전체를 한 번에 일괄 저장하세요.</li>
+    <li><strong>Smart Filtering 활용하기</strong> — 썸네일, 아바타, 아이콘은 건너뛰고 원본 크기 사진만 남깁니다.</li>
+    <li><strong>저작권 지키기</strong> — 저장할 권리가 있는 이미지만 저장하고, 다시 공유할 때는 원작자를 표시하세요.</li>
+  </ul>
+
+  <h2>FAQ</h2>
+  <h3>뉴스 갤러리를 통째로 다운로드할 수 있나요?</h3>
+  <p>네. 갤러리 URL을 붙여넣고 일괄 모드로 갤러리 전체를 한 번에 다운로드할 수 있습니다.</p>
+  <h3>사진이 최고 화질로 저장되나요?</h3>
+  <p>네. 사진은 원본 해상도 그대로 저장되며, 앱이 압축을 더하거나 워터마크를 넣지 않습니다.</p>
+  <h3>어떤 사이트에서 쓸 수 있나요?</h3>
+  <p>둘러볼 수 있는 어떤 사이트든 됩니다. 뉴스 갤러리, 사진 포럼, 커뮤니티 게시판 모두 해당됩니다.</p>
+
+  <div class="cta">
+    <h2>보고. 저장하고. 간단하게.</h2>
+    <p>ImageGet을 무료로 다운로드하고 뉴스 갤러리와 포럼의 이미지를 한 번의 탭으로 저장하세요.</p>
+    <a href="https://apps.apple.com/us/app/imageget-downloader-from-web/id878190312" target="_blank" rel="noopener" class="btn">ImageGet 다운로드</a>
+  </div>
+
+  <h2>관련 가이드</h2>
+  <ul style="list-style:none;padding:0;margin:0 0 8px;">
+    <li style="margin:6px 0;"><a href="batch-download-images.html" style="color:var(--indigo);font-weight:600;">웹의 이미지를 한 번에 일괄 다운로드하는 방법</a></li>
+    <li style="margin:6px 0;"><a href="download-manga-comic-images.html" style="color:var(--indigo);font-weight:600;">만화·코믹 사이트의 이미지를 저장하는 방법</a></li>
+    <li style="margin:6px 0;"><a href="save-instagram-photos.html" style="color:var(--indigo);font-weight:600;">Instagram 사진, 릴스, 동영상을 저장하는 방법</a></li>
+    <li style="margin:6px 0;"><a href="../supported-sites.html" style="color:var(--indigo);font-weight:600;">지원하는 모든 사이트 보기</a></li>
+  </ul>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-col">
+        <a href="../index.html" class="brand" style="font-size:16px;">
+          <img class="logo" src="../../images/imageget.png" alt="ImageGet 로고" />
+          ImageGet
+        </a>
+        <p style="color:var(--muted);font-size:14px;margin-top:12px;max-width:260px;">보고. 저장하고. 간단하게. 웹을 위한 올인원 사진 저장 도구.</p>
+      </div>
+      <div class="foot-col">
+        <h4>제품</h4>
+        <a href="../index.html#features">기능</a>
+        <a href="../index.html#how">사용법</a>
+        <a href="../index.html#pricing">Premium</a>
+        <a href="../supported-sites.html">지원 사이트</a>
+        <a href="../blog.html">블로그</a>
+      </div>
+      <div class="foot-col">
+        <h4>지원</h4>
+        <a href="../index.html#faq">FAQ</a>
+        <a href="../contact.html">문의하기</a>
+        <a href="../support.html">고객 지원</a>
+      </div>
+      <div class="foot-col">
+        <h4>법적 고지</h4>
+        <a href="../privacy.html">개인정보 처리방침</a>
+        <a href="../terms.html">서비스 약관</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 ImageGet. All rights reserved.</span>
+      <span>ImageGet - Downloader From Web</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
