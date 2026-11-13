@@ -26,7 +26,8 @@ ImageGet - Downloader From Web is available on the App Store (App Store ID 87819
 - [How to Download bilibili Videos](https://imageget.rayyao.com/blog/download-bilibili-videos.html): Learn how to download bilibili videos to your photo library with ImageGet. Paste a video link and save it in one tap — no screen recording, no third-party tools.
 - [How to Download xHamster Videos](https://imageget.rayyao.com/blog/download-xhamster-videos.html): Learn how to download xHamster videos to your photo library with ImageGet. Paste a video link, pick a quality, and save it in one tap — no screen recording, no third-party tools.
 - [How to Download EPORNER Videos](https://imageget.rayyao.com/blog/download-eporner-videos.html): Learn how to download EPORNER videos to your photo library with ImageGet. Paste a video link, pick a quality, and save it in one tap — no screen recording, no third-party tools.
-- [How to Download Videos from xVideos](https://imageget.rayyao.com/blog/download-from-xvideos.html): Learn how to download xVideos videos to your photo library with ImageGet. Paste a video link, pick a quality, and save it in one tap — no screen recording, no converter sites.
+- [How to Download Videos from xVideos](https://imageget.rayyao.com/blog/download-from-xvideos.html)
+- [How to Download XNXX Videos](https://imageget.rayyao.com/blog/download-xnxx-videos.html): Learn how to download xVideos videos to your photo library with ImageGet. Paste a video link, pick a quality, and save it in one tap — no screen recording, no converter sites.
 
 ## Languages
 
@@ -39,7 +40,7 @@ ImageGet - Downloader From Web is available on the App Store (App Store ID 87819
 - Portuguese (Brazil): https://imageget.rayyao.com/pt/
 - Korean: https://imageget.rayyao.com/ko/
 
-All thirteen guides are published in English, German, French, Italian, Japanese, Portuguese (Brazil) and Korean; eleven of them are also available in Spanish.
+All fourteen guides are published in English; thirteen of them are also available in German, French, Italian, Japanese, Portuguese (Brazil) and Korean, and eleven in Spanish.
 
 - [German guides](https://imageget.rayyao.com/de/blog.html)
 - [French guides](https://imageget.rayyao.com/fr/blog.html)
