@@ -29,6 +29,7 @@ ImageGet - Downloader From Web is available on the App Store (App Store ID 87819
 - [How to Download Videos from xVideos](https://imageget.rayyao.com/blog/download-from-xvideos.html)
 - [How to Download XNXX Videos](https://imageget.rayyao.com/blog/download-xnxx-videos.html): Learn how to download XNXX videos to your photo library with ImageGet. Paste a video link, pick a quality, and save it in one tap — no screen recording, no converter sites.
 - [How to Download ManyVids Videos](https://imageget.rayyao.com/blog/download-manyvids-videos.html): Learn how to download ManyVids videos to your photo library with ImageGet. Paste a video page link, pick a quality, and save the file in one tap — no screen recording, no converter sites.
+- [How to Download TNAFlix Videos](https://imageget.rayyao.com/blog/download-tnaflix-videos.html): Learn how to download TNAFlix videos to your photo library with ImageGet. Paste a video page link, pick a quality, and save it in one tap — no screen recording, no converter sites.
 
 ## Languages
 
@@ -41,7 +42,7 @@ ImageGet - Downloader From Web is available on the App Store (App Store ID 87819
 - Portuguese (Brazil): https://imageget.rayyao.com/pt/
 - Korean: https://imageget.rayyao.com/ko/
 
-All fifteen guides are published in English, German, French, Italian, Japanese, Spanish, Portuguese (Brazil) and Korean.
+All sixteen guides are published in English; fifteen of them are also available in German, French, Italian, Japanese, Spanish, Portuguese (Brazil) and Korean.
 
 - [German guides](https://imageget.rayyao.com/de/blog.html)
 - [French guides](https://imageget.rayyao.com/fr/blog.html)
